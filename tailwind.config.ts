@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#39FF14", // Neon Green
+        secondary: "#0A0A0A", // Charcoal Black
+        accent: "#00BFFF", // Deep Sky Blue
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,4 +22,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
