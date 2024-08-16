@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./components/header"; // Adjust the import path based on your directory structure
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={`${inter.className}`}>
         <Header activeTab="Home" /> {/* Set the activeTab as needed */}
         {children}
+        <Footer/>
       </body>
     </html>
   );

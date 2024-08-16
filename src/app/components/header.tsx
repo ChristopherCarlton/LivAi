@@ -27,12 +27,14 @@ function Header({ activeTab }: HeaderProps) {
       }`}
     >
       <div className="px-6 flex items-center justify-between transition-all duration-500">
-        <div className="flex items-center">
+        <div className="flex items-center ml-16">
           <img
             src="/images/logo.webp"
             alt="Picture Health logo showing a stylized 'ph' in green"
-            className={`transition-all duration-500 ${
-              isScrolled ? "h-20 md:h-24" : "h-32 md:h-40 lg:h-40"
+            className={`transform transition-transform duration-500 ${
+              isScrolled
+                ? "scale-150 h-32 md:h-[12rem] lg:h-[12rem]"
+                : "scale-150 h-32 md:h-[12rem] lg:h-[12rem]"
             }`}
           />
         </div>
