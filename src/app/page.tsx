@@ -34,7 +34,7 @@ function MainComponent() {
             muted
             playsInline
             className="w-full h-full object-cover object-top"
-            style={{ maxHeight: '500px' }}
+            style={{ maxHeight: '600px' }}
           ></video>
         </div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
@@ -44,12 +44,9 @@ function MainComponent() {
         </div>
       </section>
 
-
-
-
-      <section className="py-24 px-4 md:px-64 bg-gradient-to-br from-black to-secondary fade-in opacity-0 translate-y-4 transition-opacity duration-1000">
+      <section className="pb-24 pt-4 px-4 md:px-16 bg-gradient-to-br from-black to-secondary fade-in opacity-0 translate-y-4 transition-opacity duration-1000">
         <div className="text-center mb-8">
-          <h2 className="text-6xl font-chunkfive mb-4 text-primary">Our MRAI Platform</h2>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-chunkfive mb-4 text-primary">Our MRAI Platform</h2>
         </div>
         <div className="flex flex-col md:flex-row items-center">
           <Image
@@ -60,7 +57,7 @@ function MainComponent() {
             className="w-full md:w-1/2 h-auto mb-8 md:mb-0 rounded-lg"
           />
           <div className="text-center md:w-1/2 md:ml-8">
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl mb-8 text-gray-400">
+            <p className="text-base sm:text-lg md:text-xl lg:text-3xl mb-8 text-gray-400">
               LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in oncology.
             </p>
             <button className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
@@ -71,9 +68,10 @@ function MainComponent() {
       </section>
 
 
+
       {/* Clinical & Pharma Workflows Section */}
-      <section className="py-12 px-4 md:px-64 bg-gradient-to-r from-secondary via-gray-800 to-secondary fade-in opacity-0 translate-y-4 transition-opacity duration-1000">
-        <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>
+      <section className="py-12 px-4 md:px-16 bg-gradient-to-r from-secondary via-gray-800 to-secondary fade-in opacity-0 translate-y-4 transition-opacity duration-1000">
+        <h2 className="text-left text-4xl sm:text-5xl mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>
         <div className="bg-white h-0.5 mb-10"></div>
         <div className="flex flex-col md:flex-row justify-center items-start md:space-x-8 space-y-8 md:space-y-0">
           <div className="w-full md:w-1/2 px-4 flex flex-col items-center">
@@ -84,8 +82,8 @@ function MainComponent() {
               height={300}
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-2xl font-semibold text-primary mb-4 text-left md:text-center">Supporting Clinical Decisions</h3>
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-gray-400 text-left md:text-center">
+            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">Supporting Clinical Decisions</h3>
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 text-left md:text-center">
               LivAi serves as a clinical decision-support solution for patients. An oncologist/clinical care provider can request a LivAi test through radiology to perform a detailed AI-based analysis of a tumor. Results are instantaneous. All information is stored and can be accessed through our GenAI and private LLM capability. The cloud platform is accessible to the clinical care providers, radiologists, and patients to access information at any time.
             </p>
           </div>
@@ -97,13 +95,14 @@ function MainComponent() {
               height={300}
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-2xl font-semibold text-primary mb-4 text-left md:text-center">Supporting Clinical Trials</h3>
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-gray-400 text-left md:text-center">
+            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">Supporting Clinical Trials</h3>
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 text-left md:text-center">
               Recruitment of the right patients for the right trials is challenging. Following patients through the clinical trial journey is difficult due to the lack of availability of reliable biomarkers. LivAi dramatically improves both. Our accurate image-based biomarkers support clinical trials by patient selection and treatment-response assessment. All data is protected and presented using GenAI / LLM interfaces.
             </p>
           </div>
         </div>
       </section>
+
 
 
      {/* Partners Section */}
