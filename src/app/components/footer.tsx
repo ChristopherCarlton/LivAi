@@ -5,31 +5,20 @@ const Footer = () => {
   return (
     <footer className="relative bg-[#424242] text-white py-32">
       <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between items-center">
+        
+        {/* Contact Information */}
         <div className="text-center">
-          <ul className="space-y-2">
-            <li>
-              <a href="#" className="hover:underline" target="_blank" rel="noopener noreferrer">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline" target="_blank" rel="noopener noreferrer">
-                News
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline" target="_blank" rel="noopener noreferrer">
-                Connect
-              </a>
-            </li>
-          </ul>
+          <p className="text-lg">
+            For all matters relating to trials & sales.
+            <br />
+            Please contact us at:
+          </p>
+          <a href="mailto:info@liv.ai" className="block mt-2 text-[#D69985] hover:underline">
+            info@liv.ai
+          </a>
         </div>
 
+        {/* Logo and Social Icons */}
         <div className="text-center">
           <a href="/">
             <img
@@ -54,6 +43,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Newsletter Subscription */}
         <div className="text-center">
           <h3 className="text-xl font-semibold mb-4">Stay in touch</h3>
           <p className="mb-4 text-gray-300">Updates directly to your inbox</p>

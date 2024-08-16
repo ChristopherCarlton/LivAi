@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
+import Enews from "./components/enews";
 
 function MainComponent() {
   useEffect(() => {
@@ -24,14 +25,24 @@ function MainComponent() {
 
   return (
     <div className="bg-secondary text-primary op">
-      {/* Hero Section with Parallax Effect */}
+
+
       <section className="relative overflow-hidden fade-in opacity-0 transition-opacity duration-1000">
-        <div className="parallax-bg w-full h-[1100px] bg-cover bg-center" style={{ backgroundImage: 'url("/images/TitleImage.webp")' }}></div>
+        <div className="w-full h-[1100px] bg-cover bg-center">
+          <video
+            src="/images/movie.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          ></video>
+        </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-          <h1 className="text-2xl sm:text-4xl md:text-7xl lg:text-7xl text-white font-chunkfive mt-64">
+          <h1 className="text-2xl sm:text-4xl md:text-7xl lg:text-7xl text-white font-chunkfive mt-8">
             AI-Powered Cancer <br /> Diagnostics Using Medical <br /> Imaging
           </h1>
-          <div className="bg-white w-3/4 h-0.5 mt-10"></div>
+          {/* <div className="bg-white w-3/4 h-0.5 mt-10"></div> */}
         </div>
       </section>
 
@@ -106,6 +117,21 @@ function MainComponent() {
         </div>
       </section>
 
+
+       {/* Hero Section with Parallax Effect
+       <section className="relative overflow-hidden fade-in opacity-0 transition-opacity duration-1000">
+        <div className="parallax-bg w-full h-[1100px] bg-cover bg-center" style={{ backgroundImage: 'url("/images/TitleImage.webp")' }}></div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+          <h1 className="text-2xl sm:text-4xl md:text-7xl lg:text-7xl text-white font-chunkfive mt-64">
+            AI-Powered Cancer <br /> Diagnostics Using Medical <br /> Imaging
+          </h1>
+          <div className="bg-white w-3/4 h-0.5 mt-10"></div>
+        </div>
+      </section> */}
+
+      <Enews/>
+
+
       {/* Advisors Section */}
       <section className="py-12 px-4 md:px-64 bg-secondary text-white fade-in opacity-0 translate-y-4 transition-opacity duration-1000">
         <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Advisors</h2>
@@ -159,21 +185,6 @@ function MainComponent() {
           <a href="https://www.handzin.com" target="_blank" rel="noopener noreferrer">
             <img src="/images/HandzinLogo.webp" alt="Handzin logo" className="w-[150px] md:w-[200px] h-auto hover:scale-110 transition-transform duration-300 shadow-lg" />
           </a>
-        </div>
-      </section>
-
-      {/* Contact Us Section */}
-      <section className="py-12 bg-gray-200 fade-in opacity-0 translate-y-4 transition-opacity duration-1000">
-        <h2 className="text-center text-3xl font-bold mb-4 text-primary">Contact Us</h2>
-        <div className="bg-white mx-auto w-full md:w-1/2 p-6 text-center rounded shadow-lg">
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl mb-4 text-secondary">
-            For all matters relating to trials & sales.
-            <br />
-            Please contact us at:
-          </p>
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-accent">
-            <a href="mailto:info@liv.ai" className="hover:underline">info@liv.ai</a>
-          </p>
         </div>
       </section>
     </div>
