@@ -34,7 +34,7 @@ function MainComponent() {
             muted
             playsInline
             className="w-full h-full object-cover object-top"
-            style={{ maxHeight: '800px' }}
+            style={{ maxHeight: '500px' }}
           ></video>
         </div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
