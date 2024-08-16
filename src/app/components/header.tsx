@@ -4,11 +4,11 @@ import Image from "next/image";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 type HeaderProps = {
-  activeTab: "Home" | "About" | "News" | "Careers" | "Products" | "Connect";
+  activeTab: "Home" | "About" | "News" | "Products";
 };
 
 function Header({ activeTab }: HeaderProps) {
-  const navItems = ["Home", "About", "News", "Careers", "Products", "Connect"];
+  const navItems = ["Home", "About", "News", "Products"];
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -36,23 +36,12 @@ function Header({ activeTab }: HeaderProps) {
     >
       <div className="px-6 flex items-center justify-between h-full">
         <div className="flex items-center h-full">
-          <Image
-            src="/images/logo.webp"
-            alt="Picture Health logo showing a stylized 'ph' in green"
-            width={192}
-            height={192}
-            className={`transform transition-transform duration-500 ${
-              isScrolled
-                ? "scale-150 h-32 md:h-[12rem] lg:h-[12rem]"
-                : "scale-150 h-32 md:h-[12rem] lg:h-[12rem]"
-            }`}
-          />
         </div>
         <nav className="hidden md:flex items-center space-x-14 h-full">
           {navItems.map((item, index) => (
             <a
               key={index}
-              href={`#${item.toLowerCase()}`}
+              href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
               className={`text-white text-lg lg:text-xl hover:text-[#4caf50] transition-colors ${
                 activeTab === item
                   ? "text-[#4caf50] border-b-2 border-[#4caf50]"
@@ -81,7 +70,7 @@ function Header({ activeTab }: HeaderProps) {
             {navItems.map((item, index) => (
               <a
                 key={index}
-                href={`#${item.toLowerCase()}`}
+                href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
                 className={`text-white text-lg hover:text-[#4caf50] transition-colors ${
                   activeTab === item
                     ? "text-[#4caf50] border-b-2 border-[#4caf50]"

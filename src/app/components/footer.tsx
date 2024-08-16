@@ -21,7 +21,7 @@ const Footer = () => {
 
         {/* Logo and Social Icons */}
         <div className="text-center">
-          <a href="/">
+          {/* <a href="/">
             <Image
               src="/images/logo.webp"
               alt="Building Healthier America"
@@ -29,19 +29,19 @@ const Footer = () => {
               height={192} // Set the height (adjust as needed)
               className="scale-150 mb-4 mx-auto"
             />
-          </a>
+          </a> */}
           <div className="flex justify-center space-x-4 mt-4">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
-              <FaFacebook size={24} />
+              <FaFacebook size={32} />
             </a>
             <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Twitter profile">
-              <FaTwitter size={24} />
+              <FaTwitter size={32} />
             </a>
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn profile">
-              <FaLinkedin size={24} />
+              <FaLinkedin size={32} />
             </a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram profile">
-              <FaInstagram size={24} />
+              <FaInstagram size={32} />
             </a>
           </div>
         </div>

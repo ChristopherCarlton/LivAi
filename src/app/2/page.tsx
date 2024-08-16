@@ -28,7 +28,7 @@ function MainComponent() {
       <section className="relative overflow-hidden fade-in opacity-0 transition-opacity duration-1000 max-h-[800px]">
         <div className="w-full h-auto bg-cover bg-top">
           <video
-            src="/images/movie1.mp4"
+            src="/images/movie3.mp4"
             autoPlay
             loop
             muted
