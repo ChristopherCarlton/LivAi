@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -21,10 +22,12 @@ const Footer = () => {
         {/* Logo and Social Icons */}
         <div className="text-center">
           <a href="/">
-            <img
+            <Image
               src="/images/logo.webp"
               alt="Building Healthier America"
-              className="scale-150 h-48 w-48 mb-4 mx-auto"
+              width={192} // Set the width (adjust as needed)
+              height={192} // Set the height (adjust as needed)
+              className="scale-150 mb-4 mx-auto"
             />
           </a>
           <div className="flex justify-center space-x-4 mt-4">
