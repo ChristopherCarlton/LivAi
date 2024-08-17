@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#39FF14", // Neon Green
+        // primary: "#7B7973",
         secondary: "#0A0A0A", // Charcoal Black
         accent: "#00BFFF", // Deep Sky Blue
       },

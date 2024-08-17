@@ -61,7 +61,9 @@ function MainComponent() {
               LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in oncology.
             </p>
             <button className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
-              Request Demo
+              <a href="/connect">
+                Request Demo
+              </a>
             </button>
           </div>
         </div>

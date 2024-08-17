@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 type HeaderProps = {
@@ -32,11 +31,10 @@ function Header({ activeTab }: HeaderProps) {
       className={`fixed top-0 w-full z-50 transition-all duration-500 ${
         isScrolled ? "bg-[#424242] shadow-lg" : "bg-transparent"
       }`}
-      style={{ height: isScrolled ? '80px' : '120px' }}
+      style={{ height: isScrolled ? "80px" : "120px" }}
     >
       <div className="px-6 flex items-center justify-between h-full">
-        <div className="flex items-center h-full">
-        </div>
+        <div className="flex items-center h-full"></div>
         <nav className="hidden md:flex items-center space-x-14 h-full">
           {navItems.map((item, index) => (
             <a
@@ -52,9 +50,12 @@ function Header({ activeTab }: HeaderProps) {
             </a>
           ))}
           <div className="ml-14"></div>
-          <button className="bg-transparent border border-[#4caf50] text-[#4caf50] text-lg lg:text-xl px-6 py-1 rounded-full hover:bg-[#4caf50] hover:text-white transition-colors">
+          <a
+            href="/connect"
+            className="bg-transparent border border-[#4caf50] text-[#4caf50] text-lg lg:text-xl px-6 py-1 rounded-full hover:bg-[#4caf50] hover:text-white transition-colors"
+          >
             Request a Meeting
-          </button>
+          </a>
         </nav>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white text-3xl">
@@ -62,7 +63,7 @@ function Header({ activeTab }: HeaderProps) {
           </button>
         </div>
       </div>
-      
+
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden absolute top-[80px] left-0 w-full bg-[#424242] shadow-lg transition-all duration-500">
@@ -81,9 +82,13 @@ function Header({ activeTab }: HeaderProps) {
                 {item}
               </a>
             ))}
-            <button className="bg-transparent border border-[#4caf50] text-[#4caf50] text-lg px-6 py-2 rounded-full hover:bg-[#4caf50] hover:text-white transition-colors">
+            <a
+              href="/connect"
+              className="bg-transparent border border-[#4caf50] text-[#4caf50] text-lg px-6 py-2 rounded-full hover:bg-[#4caf50] hover:text-white transition-colors"
+              onClick={toggleMenu}
+            >
               Request a Meeting
-            </button>
+            </a>
           </nav>
         </div>
       )}
