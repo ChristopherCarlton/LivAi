@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-[#424242] text-white py-32">
+    <footer className="relative bg-white text-black py-32">
       <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between items-center">
         
         {/* Contact Information */}
@@ -15,22 +15,22 @@ const Footer = () => {
             Please contact us at:
           </p>
           <a href="mailto:info@liv.ai" className="block mt-2 text-[#D69985] hover:underline">
-            info@liv.ai
+            info@livai.ai
           </a>
         </div>
 
         {/* Logo and Social Icons */}
         <div className="text-center">
-          {/* <a href="/">
+          <a href="/">
             <Image
               src="/images/logo.webp"
-              alt="Building Healthier America"
+              alt="LivAI Logo"
               width={192} // Set the width (adjust as needed)
               height={192} // Set the height (adjust as needed)
               className="scale-150 mb-4 mx-auto"
             />
-          </a> */}
-          <div className="flex justify-center space-x-4 mt-4">
+          </a>
+          {/* <div className="flex justify-center space-x-4 mt-4">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
               <FaFacebook size={32} />
             </a>
@@ -43,7 +43,7 @@ const Footer = () => {
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram profile">
               <FaInstagram size={32} />
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Newsletter Subscription */}
