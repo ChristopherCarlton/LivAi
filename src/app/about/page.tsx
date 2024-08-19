@@ -40,7 +40,7 @@ const About = () => {
         </section>
 
         {/* Advisors Section */}
-        <section className="py-12 px-4 md:px-16 lg:px-64 text-white fade-in translate-y-4 transition-opacity duration-1000">
+        <section className="py-12 px-4 md:px-16 lg:px-32 text-white fade-in translate-y-4 transition-opacity duration-1000">
           <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Advisors</h2>
           <div className="bg-white h-0.5 mb-10"></div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-center">
