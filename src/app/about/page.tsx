@@ -102,7 +102,7 @@ const About = () => {
             <a href="https://www.nvidia.com" target="_blank" rel="noopener noreferrer">
               <Image src="/images/nvidialogo.webp" alt="NVIDIA logo" width={150} height={100} className="w-[150px] md:w-[150px] h-auto hover:scale-110 transition-transform duration-300 shadow-lg" />
             </a>
-            <a href="https://www.wisc.edu" target="_blank" rel="noopener noreferrer">
+            <a href="https://idia.labs.wisc.edu/media-recognition/" target="_blank" rel="noopener noreferrer">
               <Image src="/images/UWMlogo.webp" alt="University of Wisconsin-Madison logo" width={150} height={100} className="w-[150px] md:w-[150px] h-auto hover:scale-110 transition-transform duration-300 shadow-lg" />
             </a>
             <a href="https://www.handzin.com" target="_blank" rel="noopener noreferrer">

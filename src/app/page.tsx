@@ -1,8 +1,10 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 
-function MainComponent() {
+function Connect() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
   useEffect(() => {
     const handleScroll = () => {
       const elements = document.querySelectorAll('.fade-in');
@@ -23,18 +25,25 @@ function MainComponent() {
     };
   }, []);
 
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.5; // Set the playback rate to half speed
+    }
+  }, []);
+
   return (
     <div className="bg-secondary text-primary">
       <section className="relative overflow-hidden fade-in opacity-0 transition-opacity duration-1000 max-h-[800px]">
         <div className="w-full h-auto bg-cover bg-top">
           <video
+            ref={videoRef}
             src="/images/movie1.mp4"
             autoPlay
             loop
             muted
             playsInline
             className="w-full h-full object-cover object-top"
-            style={{ maxHeight: '600px' }}
+            style={{ maxHeight: '400px' }}
           ></video>
         </div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
@@ -45,35 +54,31 @@ function MainComponent() {
       </section>
 
       <section className="pb-24 pt-4 px-4 md:px-16 bg-gradient-to-br from-black to-secondary fade-in opacity-0 translate-y-4 transition-opacity duration-1000">
-  <div className="text-center mb-8">
-    <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary">Our MRAI Platform</h2>
-  </div>
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-    <Image
-      src="/images/brain.webp"
-      alt="AI-driven medical imaging platform"
-      width={150}
-      height={150}
-      className="w-3/4 h-auto mb-8 md:mb-0 rounded-lg mx-auto"
-    />
-    <div className="text-center md:text-left flex flex-col items-center md:items-start">
-      <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-400">
-        LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in oncology.
-      </p>
-      <div className="flex justify-center md:justify-center w-full">
-        <button className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
-          <a href="/connect">Request Demo</a>
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
+        <div className="text-center mb-8">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary">Our MRAI Platform</h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <Image
+            src="/images/brain.webp"
+            alt="AI-driven medical imaging platform"
+            width={150}
+            height={150}
+            className="w-3/4 h-auto mb-8 md:mb-0 rounded-lg mx-auto"
+          />
+          <div className="text-center md:text-left flex flex-col items-center md:items-start">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-400">
+              LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in oncology.
+            </p>
+            <div className="flex justify-center md:justify-center w-full">
+              <button className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <a href="/connect">Request Demo</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
 
-export default MainComponent;
+export default Connect;

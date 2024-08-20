@@ -143,3 +143,26 @@ function MainComponent() {
 }
 
 export default MainComponent;
+
+
+{/* <section className="relative w-full h-screen bg-black">
+  <video
+    src="/images/LivAI-V.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute inset-0 w-full h-full object-cover"
+  ></video>
+  <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
+    <h2 className="text-4xl sm:text-5xl md:text-6xl font-chunkfive mb-4 text-primary">
+      Our MRAI Platform
+    </h2>
+    <p className="text-base sm:text-lg md:text-xl lg:text-3xl mb-8 text-gray-400 max-w-2xl">
+      LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in oncology.
+    </p>
+    <button className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
+      Request Demo
+    </button>
+  </div>
+</section> */}
