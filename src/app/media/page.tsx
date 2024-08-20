@@ -2,24 +2,28 @@ import React from 'react';
 
 const Media = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-auto p-8 bg-secondary ">
+    <div className="flex flex-col items-center justify-center h-auto p-8 bg-secondary">
       <h2 className="text-left text-6xl mt-5 mb-10 font-semibold text-primary">Media</h2>
       
-      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-        <iframe
-          className="w-full md:w-[40rem] h-64 md:h-[20rem]"
-          src="https://www.youtube.com/embed/asBnLrwaxEE?start=290"
-          title="YouTube video player 1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          className="w-full md:w-[40rem] h-64 md:h-[20rem]"
-          src="https://www.youtube.com/embed/mgOhQ_jvXO0"
-          title="YouTube video player 2"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 w-full">
+        <div className="w-full md:w-1/2">
+          <iframe
+            className="w-full h-[50vw] md:h-[25vw] max-h-[400px]"
+            src="https://www.youtube.com/embed/asBnLrwaxEE?start=290"
+            title="YouTube video player 1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="w-full md:w-1/2">
+          <iframe
+            className="w-full h-[50vw] md:h-[25vw] max-h-[400px]"
+            src="https://www.youtube.com/embed/mgOhQ_jvXO0"
+            title="YouTube video player 2"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
 
       <a
