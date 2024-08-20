@@ -1,15 +1,16 @@
+
+
+
+
 "use client";
 import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-type HeaderProps = {
-  activeTab: "Home" | "About" | "News" | "Products";
-};
-
-function Header({ activeTab }: HeaderProps) {
+function Header() {
   const navItems = ["Home", "About", "News", "Products"];
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState(""); // No initial active tab set
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,8 +23,22 @@ function Header({ activeTab }: HeaderProps) {
     };
   }, []);
 
+  useEffect(() => {
+    // Set active tab based on current URL path
+    const path = window.location.pathname;
+    if (path.includes("/about")) setActiveTab("About");
+    else if (path.includes("/news")) setActiveTab("News");
+    else if (path.includes("/products")) setActiveTab("Products");
+    else setActiveTab("Home"); // Default to "Home" if no match
+  }, []); // Empty dependency array ensures this runs only on initial load
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleTabClick = (tab: string) => {
+    setActiveTab(tab); // Update active tab on click
+    setIsMenuOpen(false); // Close the mobile menu after clicking a tab
   };
 
   return (
@@ -35,7 +50,7 @@ function Header({ activeTab }: HeaderProps) {
     >
       <div className="px-6 flex items-center justify-between h-full">
         <div className="flex items-center h-full">
-          <a href="/" className="h-full">
+          <a href="/" className="h-full" onClick={() => handleTabClick("Home")}>
             <img
               src="/images/logo.webp"
               alt="Logo"
@@ -59,6 +74,7 @@ function Header({ activeTab }: HeaderProps) {
                     : "text-[#00BFFF] border-b-2 border-[#00BFFF]"
                   : ""
               }`}
+              onClick={() => handleTabClick(item)} // Update active tab on click
             >
               {item}
             </a>
@@ -84,7 +100,11 @@ function Header({ activeTab }: HeaderProps) {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className={`md:hidden absolute top-[80px] left-0 w-full ${isScrolled ? "bg-white" : "bg-[#424242]"} shadow-lg transition-all duration-700`}>
+        <div
+          className={`md:hidden absolute top-[80px] left-0 w-full ${
+            isScrolled ? "bg-white" : "bg-[#424242]"
+          } shadow-lg transition-all duration-700`}
+        >
           <nav className="flex flex-col items-center space-y-4 py-4">
             {navItems.map((item, index) => (
               <a
@@ -95,7 +115,7 @@ function Header({ activeTab }: HeaderProps) {
                     ? "text-black hover:text-[#00BFFF]"
                     : "text-white hover:text-[#00BFFF]"
                 }`}
-                onClick={toggleMenu}
+                onClick={() => handleTabClick(item)} // Update active tab on click
               >
                 {item}
               </a>
@@ -119,6 +139,11 @@ function Header({ activeTab }: HeaderProps) {
 }
 
 export default Header;
+
+
+
+
+
 
 
 

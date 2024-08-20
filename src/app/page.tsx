@@ -46,9 +46,9 @@ function Connect() {
             style={{ maxHeight: '400px' }}
           ></video>
         </div>
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+        <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-8">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white font-chunkfive">
-            AI-Powered Cancer <br /> Diagnostics Using Medical <br /> Imaging
+            AI-Powered Cancer Diagnostics <br />Using Medical Imaging
           </h1>
         </div>
       </section>

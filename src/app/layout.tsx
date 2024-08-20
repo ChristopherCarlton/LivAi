@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
-        <Header activeTab="Home" /> {/* Set the activeTab as needed */}
+        <Header /> {/* Set the activeTab as needed */}
         {children}
         <Footer/>
       </body>
