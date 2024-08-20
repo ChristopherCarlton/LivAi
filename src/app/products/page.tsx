@@ -3,7 +3,25 @@ import Image from 'next/image';
 
 const Products = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-secondary">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-secondary">
+      {/* Video Section */}
+      <div className="relative w-full">
+        <video
+          className="w-full h-[400px] object-cover"
+          src="/images/clinical.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+        {/* Text Overlay */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg">
+            AI Imaging
+          </h1>
+        </div>
+      </div>
+
       {/* Clinical & Pharma Workflows Section */}
       <section className="py-12 px-4 md:px-16 bg-secondary fade-in transition-opacity duration-1000">
         <h2 className="text-left text-4xl sm:text-5xl mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>

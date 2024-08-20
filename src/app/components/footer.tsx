@@ -4,7 +4,11 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-[#1A3677] text-white py-32">
+    <footer className="relative text-white py-16"
+      style={{
+        background: "linear-gradient(90deg, rgba(26,54,119,1) 0%, rgba(83,115,188,1) 50%, rgba(26,54,119,1) 100%)",
+      }}
+    >
       <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between items-center">
         
         {/* Contact Information */}

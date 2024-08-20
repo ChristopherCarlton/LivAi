@@ -32,7 +32,7 @@ const Media = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Visit Media Recognition
+        Media Room
       </a>
     </div>
   );
