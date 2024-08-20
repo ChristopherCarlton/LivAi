@@ -43,23 +43,23 @@ function Connect() {
             muted
             playsInline
             className="w-full h-full object-cover object-top"
-            style={{ maxHeight: '400px' }}
+            style={{ maxHeight: '600px' }}
           ></video>
         </div>
         <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-8">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white font-chunkfive">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white font-chunkfive pb-16">
             AI-Powered Cancer Diagnostics <br />Using Medical Imaging
           </h1>
         </div>
       </section>
 
-      <section className="pb-24 pt-4 px-4 md:px-16 bg-gradient-to-br from-black to-secondary fade-in opacity-0 translate-y-4 transition-opacity duration-1000">
+      <section className="pb-24 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
         <div className="text-center mb-8">
           <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary">Our MRAI Platform</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <Image
-            src="/images/brain.webp"
+            src="/images/TitleImage.webp"
             alt="AI-driven medical imaging platform"
             width={150}
             height={150}

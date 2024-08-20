@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="text-center">
           <a href="/">
             <Image
-              src="/images/logo.png"
+              src="/images/logo1.png"
               alt="LivAI Logo"
               width={192} // Set the width (adjust as needed)
               height={192} // Set the height (adjust as needed)

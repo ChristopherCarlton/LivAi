@@ -4,10 +4,11 @@ const About = () => {
   return (
     <>
       {/* Founding Team Section */}
-      <div className='bg-gradient-to-br from-secondary to-gray-800 fade-in opacity-95 translate-y-4 transition-opacity duration-1000'>
+      {/* bg-gradient-to-br from-secondary to-gray-800 */}
+      <div className='bg-secondary fade-in opacity-95 transition-opacity duration-1000'>
         <section className="py-12 px-4 md:px-16 lg:px-32 fade-in translate-y-4 transition-opacity duration-1000">
           <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Founding Team</h2>
-          <div className="bg-white h-0.5 mb-10"></div>
+          <div className="bg-gray-800 h-0.5 mb-10"></div>
           <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
             <div className="text-center">
               <a href="https://www.linkedin.com/in/pallavi-tiwari-51aa0531/" target="_blank" rel="noopener noreferrer">
@@ -42,7 +43,7 @@ const About = () => {
         {/* Advisors Section */}
         <section className="py-12 px-4 md:px-16 lg:px-32 text-white fade-in translate-y-4 transition-opacity duration-1000">
           <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Advisors</h2>
-          <div className="bg-white h-0.5 mb-10"></div>
+          <div className="bg-gray-800 h-0.5 mb-10"></div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-center">
             <div className="text-center">
               <a href="https://www.linkedin.com/in/schusterdavid/" target="_blank" rel="noopener noreferrer">

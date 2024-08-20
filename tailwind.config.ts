@@ -9,9 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#39FF14", // Neon Green
+        // primary: "#39FF14", // Neon Green
+        primary:"#1A3677",
+
         // primary: "#7B7973",
-        secondary: "#0A0A0A", // Charcoal Black
+        // secondary: "#0A0A0A", // Charcoal Black
+        secondary: "#ffffff", // White
         accent: "#00BFFF", // Deep Sky Blue
       },
       backgroundImage: {

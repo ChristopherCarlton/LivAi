@@ -5,7 +5,7 @@ const Products = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-secondary">
       {/* Clinical & Pharma Workflows Section */}
-      <section className="py-12 px-4 md:px-16 bg-gradient-to-r from-secondary via-gray-800 to-secondary fade-in opacity-95 translate-y-4 transition-opacity duration-1000">
+      <section className="py-12 px-4 md:px-16 bg-secondary fade-in transition-opacity duration-1000">
         <h2 className="text-left text-4xl sm:text-5xl mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>
         <div className="bg-white h-0.5 mb-10"></div>
         <div className="flex flex-col md:flex-row justify-center items-start md:space-x-8 space-y-8 md:space-y-0">
