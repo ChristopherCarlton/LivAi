@@ -4,11 +4,11 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="relative text-white py-16"
-      style={{
-        background: "linear-gradient(90deg, rgba(26,54,119,1) 0%, rgba(83,115,188,1) 50%, rgba(26,54,119,1) 100%)",
-      }}
-    >
+      <footer className="relativ text-white py-16"
+        style={{
+          background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", // Updated gradient with new color
+        }}
+      >
       <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between items-center">
         
         {/* Contact Information */}

@@ -33,7 +33,7 @@ const Media = () => {
         rel="noopener noreferrer"
       >
         Media Room
-      </a>
+      </a>      
     </div>
   );
 };

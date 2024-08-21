@@ -26,13 +26,30 @@ function Header() {
   };
 
   return (
-    <header
-    className="sticky top-0 w-full z-50 text-white shadow-lg transition-all duration-700"
-    style={{
-      height: "80px",
-      background: "linear-gradient(90deg, rgba(26,54,119,1) 0%, rgba(83,115,188,1) 50%, rgba(26,54,119,1) 100%)", // Gradient with a subtle lighter blue in the center
-    }}
-  >
+  //   <header
+  //   className="sticky top-0 bg-primary w-full z-50 text-white shadow-lg transition-all duration-700"
+  //   style={{
+  //     height: "80px",
+  //   }}
+  // >
+
+//  <header
+//     className="sticky top-0 w-full z-50 text-white shadow-lg transition-all duration-700"
+//     style={{
+//       height: "80px",
+//       background: "linear-gradient(90deg, rgba(26,54,119,1) 0%, rgba(83,115,188,1) 50%, rgba(26,54,119,1) 100%)", // Gradient with a subtle lighter blue in the center
+//     }}
+//   > 
+
+<header
+  className="sticky top-0 w-full z-50 text-white shadow-lg transition-all duration-700"
+  style={{
+    height: "80px",
+    background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", // Updated gradient with new color
+  }}
+>
+
+
   
 
 
