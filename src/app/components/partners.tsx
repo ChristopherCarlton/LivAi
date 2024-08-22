@@ -11,8 +11,8 @@ const Partners: React.FC = () => {
               src="/images/nvidialogo.webp"
               alt="NVIDIA logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="https://idia.labs.wisc.edu/media-recognition/" target="_blank" rel="noopener noreferrer">
@@ -20,8 +20,8 @@ const Partners: React.FC = () => {
               src="/images/UWMlogo.webp"
               alt="University of Wisconsin-Madison logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="https://www.handzin.com" target="_blank" rel="noopener noreferrer">
@@ -29,8 +29,8 @@ const Partners: React.FC = () => {
               src="/images/HandzinLogo.webp"
               alt="Handzin logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="https://www.cancerhelpdesk.org" target="_blank" rel="noopener noreferrer">
@@ -38,8 +38,8 @@ const Partners: React.FC = () => {
               src="/images/cancerHelpDesk.png"
               alt="Cancer Help Desk logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="" target="_blank" rel="noopener noreferrer">
@@ -47,8 +47,8 @@ const Partners: React.FC = () => {
               src="/images/isthmus.png"
               alt="Isthmus logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="" target="_blank" rel="noopener noreferrer">
@@ -56,8 +56,8 @@ const Partners: React.FC = () => {
               src="/images/glaser.png"
               alt="Glaser logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="https://aws.amazon.com" target="_blank" rel="noopener noreferrer">
@@ -65,8 +65,8 @@ const Partners: React.FC = () => {
               src="/images/aws.png"
               alt="AWS logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           {/* Duplicate logos for seamless looping */}
@@ -75,8 +75,8 @@ const Partners: React.FC = () => {
               src="/images/nvidialogo.webp"
               alt="NVIDIA logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="https://idia.labs.wisc.edu/media-recognition/" target="_blank" rel="noopener noreferrer">
@@ -84,8 +84,8 @@ const Partners: React.FC = () => {
               src="/images/UWMlogo.webp"
               alt="University of Wisconsin-Madison logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="https://www.handzin.com" target="_blank" rel="noopener noreferrer">
@@ -93,8 +93,8 @@ const Partners: React.FC = () => {
               src="/images/HandzinLogo.webp"
               alt="Handzin logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="https://www.cancerhelpdesk.org" target="_blank" rel="noopener noreferrer">
@@ -102,8 +102,8 @@ const Partners: React.FC = () => {
               src="/images/cancerHelpDesk.png"
               alt="Cancer Help Desk logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="" target="_blank" rel="noopener noreferrer">
@@ -111,8 +111,8 @@ const Partners: React.FC = () => {
               src="/images/isthmus.png"
               alt="Isthmus logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="" target="_blank" rel="noopener noreferrer">
@@ -120,8 +120,8 @@ const Partners: React.FC = () => {
               src="/images/glaser.png"
               alt="Glaser logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
           <a href="https://aws.amazon.com" target="_blank" rel="noopener noreferrer">
@@ -129,8 +129,8 @@ const Partners: React.FC = () => {
               src="/images/aws.png"
               alt="AWS logo"
               width={600}
-              height={100}
-              className="w-[600px] h-[100px] hover:scale-110 transition-transform duration-300 shadow-lg"
+              height={75}
+              className="w-auto h-[75px] hover:scale-110 transition-transform duration-300 shadow-lg"
             />
           </a>
         </div>
