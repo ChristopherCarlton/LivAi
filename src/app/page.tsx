@@ -56,11 +56,11 @@ function Page() {
             muted
             playsInline
             className="w-full h-full object-cover object-top"
-            style={{ maxHeight: '700px' }}
+            style={{ maxHeight: '500px' }}
           ></video>
         </div>
         <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-8">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white pb-56">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white pb-16">
             AI-Powered Cancer Diagnostics <br />Using Medical Imaging
           </h1>
         </div>
