@@ -95,22 +95,6 @@ const About = () => {
             </div>
           </div>
         </section>
-
-        Partners Section
-        <section className="py-12 bg-white fade-in translate-y-4 transition-opacity duration-1000">
-          <h2 className="text-center text-lg sm:text-xl md:text-4xl lg:text-4xl font-bold mb-8 text-gray-700">Our Partners</h2>
-          <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-16 lg:space-x-48">
-            <a href="https://www.nvidia.com" target="_blank" rel="noopener noreferrer">
-              <Image src="/images/nvidialogo.webp" alt="NVIDIA logo" width={150} height={100} className="w-[150px] md:w-[150px] h-auto hover:scale-110 transition-transform duration-300 shadow-lg" />
-            </a>
-            <a href="https://idia.labs.wisc.edu/media-recognition/" target="_blank" rel="noopener noreferrer">
-              <Image src="/images/UWMlogo.webp" alt="University of Wisconsin-Madison logo" width={150} height={100} className="w-[150px] md:w-[150px] h-auto hover:scale-110 transition-transform duration-300 shadow-lg" />
-            </a>
-            <a href="https://www.handzin.com" target="_blank" rel="noopener noreferrer">
-              <Image src="/images/HandzinLogo.webp" alt="Handzin logo" width={150} height={100} className="w-[150px] md:w-[150px] h-auto hover:scale-110 transition-transform duration-300 shadow-lg" />
-            </a>
-          </div>
-        </section>
       </div>
     </>
   );
