@@ -36,7 +36,7 @@ const Products = () => {
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
             <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">Supporting Clinical Decisions</h3>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 text-left md:text-center">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 text-left md:text-center">
               LivAi serves as a clinical decision-support solution for patients. An oncologist/clinical care provider can request a LivAi test through radiology to perform a detailed AI-based analysis of a tumor. Results are instantaneous. All information is stored and can be accessed through our GenAI and private LLM capability. The cloud platform is accessible to the clinical care providers, radiologists, and patients to access information at any time.
             </p>
           </div>
@@ -49,7 +49,7 @@ const Products = () => {
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
             <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">Supporting Clinical Trials</h3>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 text-left md:text-center">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 text-left md:text-center">
               Recruitment of the right patients for the right trials is challenging. Following patients through the clinical trial journey is difficult due to the lack of availability of reliable biomarkers. LivAi dramatically improves both. Our accurate image-based biomarkers support clinical trials by patient selection and treatment-response assessment. All data is protected and presented using GenAI / LLM interfaces.
             </p>
           </div>
