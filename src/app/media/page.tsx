@@ -9,7 +9,7 @@ const Media = () => {
         <div className="w-full md:w-1/2">
           <iframe
             className="w-full h-[50vw] md:h-[25vw] max-h-[400px]"
-            src="https://www.youtube.com/embed/asBnLrwaxEE?start=290"
+            src="https://www.youtube-nocookie.com/embed/asBnLrwaxEE?start=290"
             title="YouTube video player 1"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -18,7 +18,7 @@ const Media = () => {
         <div className="w-full md:w-1/2">
           <iframe
             className="w-full h-[50vw] md:h-[25vw] max-h-[400px]"
-            src="https://www.youtube.com/embed/mgOhQ_jvXO0"
+            src="https://www.youtube-nocookie.com/embed/mgOhQ_jvXO0"
             title="YouTube video player 2"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
