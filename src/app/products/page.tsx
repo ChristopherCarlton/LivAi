@@ -22,9 +22,17 @@ const Products = () => {
         </div>
       </div>
 
+      <div className="flex justify-center w-full pt-12">
+        <div className="w-1/3 flex justify-between items-center">
+          <img src="/images/globalreach.png" alt="Global Reach" className="h-auto w-auto max-h-32 max-w-full object-contain" />
+          <img src="/images/secureplatform.png" alt="Secure Platform" className="h-auto w-auto max-h-32 max-w-full object-contain" />
+          <img src="/images/instantresults.png" alt="Instant Results" className="h-auto w-auto max-h-32 max-w-full object-contain" />
+        </div>
+      </div>
+
       {/* Clinical & Pharma Workflows Section */}
       <section className="py-12 px-4 md:px-16 bg-secondary fade-in transition-opacity duration-1000">
-        <h2 className="text-left text-4xl sm:text-5xl mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>
+        <h2 className="text-center text-4xl sm:text-5xl mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>
         <div className="bg-white h-0.5 mb-10"></div>
         <div className="flex flex-col md:flex-row justify-center items-start md:space-x-8 space-y-8 md:space-y-0">
           <div className="w-full md:w-1/2 px-4 flex flex-col items-center">

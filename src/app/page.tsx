@@ -66,7 +66,7 @@ function Page() {
         </div>
       </section>
 
-      <section className="pb-24 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
+      <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
         <div className="text-center mb-8">
           <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary">Turning MRI into MRAI</h2>
         </div>

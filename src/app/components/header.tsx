@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 
 function Header() {
-  const navItems = ["Home", "About", "Media", "Products"];
+  const navItems = ["Home", "About", "Media", "Video", "Products"];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState(""); // Default to no active tab initially
   const router = useRouter();
@@ -20,6 +20,8 @@ function Header() {
       setActiveTab("About");
     } else if (pathname.includes("/media")) {
       setActiveTab("Media");
+    } else if (pathname.includes("/video")) {
+      setActiveTab("Video");
     } else if (pathname.includes("/products")) {
       setActiveTab("Products");
     } else if (pathname.includes("/connect")) {
@@ -107,7 +109,7 @@ function Header() {
             />
           </a>
         </div>
-        <nav className="hidden md:flex items-center space-x-14 h-full">
+        <nav className="hidden md:flex items-center space-x-6 lg:space-x-14 h-full">
           {navItems.map((item, index) => (
             <a
               key={index}
@@ -116,17 +118,17 @@ function Header() {
                 e.preventDefault();
                 handleNavigation(item);
               }}
-              className={`text-lg lg:text-xl hover:text-[#00BFFF] transition-colors ${
+              className={`text-sm sm:text-base lg:text-xl hover:text-[#00BFFF] transition-colors ${
                 activeTab === item ? "text-white border-b-2 border-[#00BFFF]" : ""
               }`}
             >
               {item}
             </a>
           ))}
-          <div className="ml-14"></div>
+          <div className="ml-6 lg:ml-14"></div>
           <a
             href="/connect"
-            className="text-lg lg:text-xl px-6 py-1 rounded-full transition-colors bg-transparent border border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white"
+            className="text-sm sm:text-base lg:text-xl px-3 sm:px-4 lg:px-6 py-1 rounded-full transition-colors bg-transparent border border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white whitespace-nowrap"
           >
             Request a Meeting
           </a>
