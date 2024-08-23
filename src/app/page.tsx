@@ -100,6 +100,7 @@ function Page() {
       </section>
 
       <section id="media">
+        <div className="pt-16"></div>
         <Media />
       </section>
     </div>

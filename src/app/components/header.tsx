@@ -2,21 +2,62 @@
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 function Header() {
   const navItems = ["Home", "About", "Media", "Products"];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState(""); // No initial active tab set
+  const [activeTab, setActiveTab] = useState(""); // Default to no active tab initially
   const router = useRouter();
+  const pathname = usePathname();
 
   // Set active tab based on current URL path
   useEffect(() => {
-    const path = window.location.pathname;
-    if (path.includes("/about")) setActiveTab("About");
-    else if (path.includes("/media")) setActiveTab("Media");
-    else if (path.includes("/products")) setActiveTab("Products");
-    else setActiveTab("Home"); // Default to "Home" if no match
-  }, []); // Empty dependency array ensures this runs only on initial load
+    if (pathname === "/") {
+      // For the home page, we'll handle this separately with scroll logic
+      setActiveTab("Home");
+    } else if (pathname.includes("/about")) {
+      setActiveTab("About");
+    } else if (pathname.includes("/media")) {
+      setActiveTab("Media");
+    } else if (pathname.includes("/products")) {
+      setActiveTab("Products");
+    } else if (pathname.includes("/connect")) {
+      setActiveTab(""); // No active tab for Connect page
+    } else {
+      setActiveTab(""); // No active tab for other pages
+    }
+  }, [pathname]); // React to changes in the pathname
+
+  // Update active tab based on scroll position (Home page only)
+  useEffect(() => {
+    if (pathname === "/") {
+      const sections = {
+        about: document.getElementById("about"),
+        media: document.getElementById("media"),
+      };
+
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        const aboutOffset = sections.about?.offsetTop || 0;
+        const mediaOffset = sections.media?.offsetTop || 0;
+
+        if (scrollY >= mediaOffset - 100) {
+          setActiveTab("Media");
+        } else if (scrollY >= aboutOffset - 100) {
+          setActiveTab("About");
+        } else {
+          setActiveTab("Home");
+        }
+      };
+
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [pathname]); // Ensure this effect runs only on the home page
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -38,7 +79,7 @@ function Header() {
     if (item === "Home") {
       router.push("/");
     } else if (item === "About" || item === "Media") {
-      if (window.location.pathname === "/") {
+      if (pathname === "/") {
         handleScrollToSection(item.toLowerCase());
       } else {
         router.push(`/#${item.toLowerCase()}`);
