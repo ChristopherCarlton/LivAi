@@ -11,7 +11,7 @@ const About = () => {
           <div className="bg-gray-800 h-0.5 mb-10"></div>
 
           <div className="text-center py-4 px-4 md:px-16 lg:px-32">
-        <p className="text-3xl font-medium text-gray-600 pb-8 mx-auto">
+        <p className="text-2xl font-medium text-gray-600 pb-8 mx-auto">
             We are a group of driven entrepreneurs, scientists, and clinical care providers who are passionate about making a difference in improving treatment management and patient outcomes in oncology. LivAi is built on over 10-years of innovative and proven-research, with a vision to improve treatment management in cancer, as we know it.
         </p>
     </div>
