@@ -14,22 +14,18 @@ function Header() {
   // Set active tab based on current URL path
   useEffect(() => {
     if (pathname === "/") {
-      // For the home page, we'll handle this separately with scroll logic
       setActiveTab("Home");
-    // } else if (pathname.includes("/about")) {
-    //   setActiveTab("About");
-    // } else if (pathname.includes("/")) {
-    //   setActiveTab("Media");
-    } else if (pathname.includes("/video")) {
+    } else if (pathname?.includes("/video")) {
       setActiveTab("Video");
-    } else if (pathname.includes("/products")) {
+    } else if (pathname?.includes("/products")) {
       setActiveTab("Products");
-    } else if (pathname.includes("/connect")) {
+    } else if (pathname?.includes("/connect")) {
       setActiveTab(""); // No active tab for Connect page
     } else {
       setActiveTab(""); // No active tab for other pages
     }
-  }, [pathname]); // React to changes in the pathname
+  }, [pathname]);
+  
 
   // Update active tab based on scroll position (Home page only)
   useEffect(() => {
