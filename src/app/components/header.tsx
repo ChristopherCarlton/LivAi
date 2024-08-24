@@ -16,10 +16,10 @@ function Header() {
     if (pathname === "/") {
       // For the home page, we'll handle this separately with scroll logic
       setActiveTab("Home");
-    } else if (pathname.includes("/about")) {
-      setActiveTab("About");
-    } else if (pathname.includes("/media")) {
-      setActiveTab("Media");
+    // } else if (pathname.includes("/about")) {
+    //   setActiveTab("About");
+    // } else if (pathname.includes("/")) {
+    //   setActiveTab("Media");
     } else if (pathname.includes("/video")) {
       setActiveTab("Video");
     } else if (pathname.includes("/products")) {
