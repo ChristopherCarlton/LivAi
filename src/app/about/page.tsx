@@ -7,7 +7,7 @@ const About = () => {
       {/* bg-gradient-to-br from-secondary to-gray-800 */}
       <div className='bg-secondary fade-in opacity-95 transition-opacity duration-1000'>
         <section className="py-4 px-4 md:px-16 lg:px-32 fade-in transition-opacity duration-1000">
-          <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Founding Team</h2>
+          <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Team</h2>
           <div className="bg-gray-800 h-0.5 mb-10"></div>
           <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
             <div className="text-center">
@@ -38,16 +38,34 @@ const About = () => {
               </p>
             </div>
           </div>
+          <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8 mt-8">
+            <div className="text-center delay-300">
+              <a href="https://www.linkedin.com/in/manmeetsinghahluwalia/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/ManmeetAhluwalia.png" alt="Manmeet Ahluwalia MD" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded-full mb-4 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <h3 className="text-2xl font-semibold text-primary mb-4">Manmeet Ahluwalia MD</h3>
+              <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-600 max-w-[400px] mx-auto">
+                Co-founder &amp; Chairman, Mike has a history building global network and cloud infrastructure platforms. He has spent the last ten years working in healthcare and AI looking to solve problems that make a meaningful difference in people&apos;s lives.
+              </p>
+            </div>
+            <div className="text-center delay-400">
+              <a href="https://www.linkedin.com/in/sarvachannarajurs/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/SarvaChannarajurs.jpeg" alt="Sarva Channarajurs" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded-full mb-4 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <h3 className="text-2xl font-semibold text-primary mb-4">Sarva Channarajurs</h3>
+              <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-600 max-w-[400px] mx-auto">
+                Co-founder &amp; Chairman, Mike has a history building global network and cloud infrastructure platforms. He has spent the last ten years working in healthcare and AI looking to solve problems that make a meaningful difference in people&apos;s lives.
+              </p>
+            </div>
+          </div>
         </section>
-
-        {/* Advisors Section */}
         <section className="py-4 px-4 md:px-16 lg:px-32 text-white fade-in transition-opacity duration-1000">
           <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Advisors</h2>
           <div className="bg-gray-800 h-0.5 mb-10"></div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
             <div className="text-center">
               <a href="https://www.linkedin.com/in/schusterdavid/" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/DavidSchuster.webp" alt="David Schuster" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+                <Image src="/images/DavidSchuster.jpeg" alt="David Schuster" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
               <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">David Schuster</p>
             </div>
@@ -56,18 +74,6 @@ const About = () => {
                 <Image src="/images/RamyIbrahim.webp" alt="Ramy Ibrahim MD" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
               <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Ramy Ibrahim MD</p>
-            </div>
-            <div className="text-center">
-              <a href="https://www.linkedin.com/in/manmeetsinghahluwalia/" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/ManmeetAhluwalia.webp" alt="Manmeet Ahluwalia MD" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-              </a>
-              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Manmeet Ahluwalia MD</p>
-            </div>
-            <div className="text-center">
-              <a href="https://www.linkedin.com/in/sarvachannarajurs/" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/SarvaChannarajurs.webp" alt="Sarva Channarajurs" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-              </a>
-              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Sarva Channarajurs</p>
             </div>
             <div className="text-center">
               <a href="https://www.linkedin.com/in/glen-taylor-a92b9843/" target="_blank" rel="noopener noreferrer">

@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+   h1, h2, h3 {
+    @apply font-semibold font-craftgothic;
+  } 
+   /* p {
+    @apply font-craftgothiclight;
+  }  */
+}
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,13 +29,29 @@
 }
 
 @font-face {
-  font-family: 'ChunkFive';
-  src: url('/fonts/ChunkFive-Regular.otf') format('opentype');
+  font-family: 'Craft Gothic';
+  src: url('/fonts/CraftGothic-Black.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Craft Gothic Light';
+  src: url('/fonts/CraftGothic-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Craft Gothic Light Condensed';
+  src: url('/fonts/CraftGothic-LightCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
+  /* font-family: 'Craft Gothic Light', sans-serif; */
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

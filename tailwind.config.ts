@@ -13,7 +13,9 @@ const config: Config = {
         secondary: "#FFFFFF", // White
       },
       fontFamily: {
-        chunkfive: ['ChunkFive', 'sans-serif'],
+        craftgothic: ['Craft Gothic', 'sans-serif'], // Craft Gothic Black
+        craftgothiclight: ['Craft Gothic Light', 'sans-serif'], // Craft Gothic Light
+        craftgothiclightcondensed: ['Craft Gothic Light Condensed', 'sans-serif'], // Craft Gothic Light Condensed
       },
       animation: {
         scroll: 'scroll 60s linear infinite',
