@@ -1,35 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
+import ImageRotator from '../components/imageRotator';
 
 const Products = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-secondary">
-      {/* Video Section */}
-      <div className="relative w-full">
-        <video
-          className="w-full h-[400px] object-cover"
-          src="/images/clinical.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
-        {/* Text Overlay */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg">
-            AI Imaging
-          </h1>
-        </div>
-      </div>
-
-      <div className="flex justify-center w-full pt-12">
-        <div className="w-1/3 flex justify-between items-center">
-          <img src="/images/globalreach.png" alt="Global Reach" className="h-auto w-auto max-h-32 max-w-full object-contain" />
-          <img src="/images/secureplatform.png" alt="Secure Platform" className="h-auto w-auto max-h-32 max-w-full object-contain" />
-          <img src="/images/instantresults.png" alt="Instant Results" className="h-auto w-auto max-h-32 max-w-full object-contain" />
-        </div>
-      </div>
-
+      <ImageRotator/>
       {/* Clinical & Pharma Workflows Section */}
       <section className="py-12 px-4 md:px-16 bg-secondary fade-in transition-opacity duration-1000">
         <h2 className="text-center text-4xl sm:text-5xl mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>
@@ -43,9 +19,9 @@ const Products = () => {
               height={300}
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">Supporting Clinical Decisions</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">MRAI Diagnostic Solutions for Hospitals & Clinics</h3>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 text-left md:text-center">
-              LivAi serves as a clinical decision-support solution for patients. An oncologist/clinical care provider can request a LivAi test through radiology to perform a detailed AI-based analysis of a tumor. Results are instantaneous. All information is stored and can be accessed through our GenAI and private LLM capability. The cloud platform is accessible to the clinical care providers, radiologists, and patients to access information at any time.
+              Our proprietary MRAI solution serves as a clinical decision-support for oncology treatment management. Oncologists/clinical care providers can request MRAI analysis to perform detailed tumor assessment, through the entire patient’s journey. Results are instantaneous. The cloud platform is accessible to the clinical care providers, radiologists, and patients to access information at any time. 
             </p>
           </div>
           <div className="w-full md:w-1/2 px-4 flex flex-col items-center delay-100">
@@ -56,9 +32,9 @@ const Products = () => {
               height={300}
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">Supporting Clinical Trials</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">MRAI Analytics Platform for Pharma & Research</h3>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 text-left md:text-center">
-              Recruitment of the right patients for the right trials is challenging. Following patients through the clinical trial journey is difficult due to the lack of availability of reliable biomarkers. LivAi dramatically improves both. Our accurate image-based biomarkers support clinical trials by patient selection and treatment-response assessment. All data is protected and presented using GenAI / LLM interfaces.
+              LivAi provides innovative, research-backed AI solutions for oncology to help pharma through the entire cycle of drug development and clinical trial management. We offer diverse services including inclusion/exclusion, patient selection, and treatment management using MRAI-driven biomarkers . Our solutions are scientifically proven and offer substantial value as they utilize clinical MRI scans, and thus are non-disruptive to the existing clinical workup for a patient on a clinical trial.
             </p>
           </div>
         </div>
@@ -68,3 +44,36 @@ const Products = () => {
 };
 
 export default Products;
+
+
+
+
+
+
+
+
+
+ {/* Video Section */}
+      {/* <div className="relative w-full">
+        <video
+          className="w-full h-[400px] object-cover"
+          src="/images/clinical.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg">
+            AI Imaging
+          </h1>
+        </div>
+      </div> */}
+
+      {/* <div className="flex justify-center w-full pt-12">
+        <div className="w-1/3 flex justify-between items-center">
+          <img src="/images/globalreach.png" alt="Global Reach" className="h-auto w-auto max-h-32 max-w-full object-contain" />
+          <img src="/images/secureplatform.png" alt="Secure Platform" className="h-auto w-auto max-h-32 max-w-full object-contain" />
+          <img src="/images/instantresults.png" alt="Instant Results" className="h-auto w-auto max-h-32 max-w-full object-contain" />
+        </div>
+      </div> */}

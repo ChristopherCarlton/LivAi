@@ -7,8 +7,14 @@ const About = () => {
       {/* bg-gradient-to-br from-secondary to-gray-800 */}
       <div className='bg-secondary fade-in opacity-95 transition-opacity duration-1000'>
         <section className="py-4 px-4 md:px-16 lg:px-32 fade-in transition-opacity duration-1000">
-          <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Team</h2>
+          <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Who are we?</h2>
           <div className="bg-gray-800 h-0.5 mb-10"></div>
+
+          <div className="text-center py-4 px-4 md:px-16 lg:px-32">
+        <p className="text-3xl font-medium text-gray-600 pb-8 mx-auto">
+            We are a group of driven entrepreneurs, scientists, and clinical care providers who are passionate about making a difference in improving treatment management and patient outcomes in oncology. LivAi is built on over 10-years of innovative and proven-research, with a vision to improve treatment management in cancer, as we know it.
+        </p>
+    </div>
           <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
             <div className="text-center">
               <a href="https://www.linkedin.com/in/pallavi-tiwari-51aa0531/" target="_blank" rel="noopener noreferrer">
@@ -45,7 +51,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Manmeet Ahluwalia MD</h3>
               <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-600 max-w-[400px] mx-auto">
-                Co-founder &amp; Chairman, Mike has a history building global network and cloud infrastructure platforms. He has spent the last ten years working in healthcare and AI looking to solve problems that make a meaningful difference in people&apos;s lives.
+                Chief Medical Advisor, Manmeet is a world-renowned neuro-oncologist and medical oncologist at Baptist Health Miami Cancer Institute, serving as Chief Scientific Officer, Chief of Medical Oncology, and Deputy Director. Specializing in primary brain tumors and brain metastases, his research has resulted in significant advancements in cancer treatment. He has numerous prestigious awards, including the current Most Distinguished Physician Award of AAPI and ASCO Fellowship.
               </p>
             </div>
             <div className="text-center delay-400">
