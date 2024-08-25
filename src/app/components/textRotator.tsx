@@ -29,7 +29,7 @@ const TextRotator = () => {
   }, [texts.length]);
 
   return (
-    <div className="flex justify-center w-full pt-12">
+    <div className="flex justify-center w-full">
       <div className="flex justify-center items-center">
         <span
           className={`text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white font-bold transition-opacity duration-1000 ${isFading ? 'opacity-100' : 'opacity-0'}`}

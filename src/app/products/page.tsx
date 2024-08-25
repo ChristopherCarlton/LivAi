@@ -7,7 +7,7 @@ const Products = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-secondary">
       <div className="relative w-full">
         <Image
-            className="w-full h-[400px] object-cover"
+            className="w-full h-[300px] object-cover"
             src="/images/y.jpg"
             alt="Supporting Clinical Decisions"
             width={600}

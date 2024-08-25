@@ -59,11 +59,26 @@ function Page() {
             style={{ maxHeight: '500px' }}
           ></video>
         </div>
-        <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-8">
+        {/* <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-8">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white pb-16">
             AI-Powered Cancer Diagnostics <br />Using Medical Imaging
           </h1>
-        </div>
+        </div> */}
+
+        {/* Existing div for larger screens */}
+<div className="hidden sm:flex absolute inset-0 flex-col justify-end items-center text-center pb-8">
+  <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white pb-16">
+    AI-Powered Cancer Diagnostics <br />Using Medical Imaging
+  </h1>
+</div>
+
+{/* New div for mobile screens */}
+<div className="flex sm:hidden absolute inset-0 flex-col justify-end items-center text-center pb-8">
+  <h1 className="text-2xl text-white pb-8">
+    AI-Powered Cancer Diagnostics <br />Using Medical Imaging
+  </h1>
+</div>
+
       </section>
 
       <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
