@@ -31,17 +31,18 @@ const Products = () => {
               height={300}
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">
-              <span className="inline-flex items-center">
-                MRAI
+          <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">
+              <span className="inline-flex items-baseline">
+                <span>MRAI</span>
                 <img
                   src="/images/trademark.png"
                   alt="Trademark"
-                  className="inline-block ml-1 w-4 h-4"
+                  className="inline-block ml-1 w-4 h-4 align-text-bottom"
                 />
                 <span className="ml-2">Diagnostic Solutions for Hospitals & Clinics</span>
               </span>
             </h3>
+
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 text-left md:text-center">
               Our proprietary 
               <span className="inline-flex items-center ml-2">
