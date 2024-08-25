@@ -8,7 +8,7 @@ const Products = () => {
       <div className="relative w-full">
         <Image
             className="w-full h-[400px] object-cover"
-            src="/images/y.jpg"
+            src="/images/zzz.jpg"
             alt="Supporting Clinical Decisions"
             width={600}
             height={300}
