@@ -1,21 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
-import ImageRotator from '../components/imageRotator';
+import ImageRotator from '../../components/imageRotator';
 
 const Products = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-secondary">
       <div className="relative w-full">
-        <video
-          className="w-full h-[400px] object-cover"
-          src="/images/clinical.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
+        <Image
+            className="w-full h-[400px] object-cover"
+            src="/images/z.jpg"
+            alt="Supporting Clinical Decisions"
+            width={600}
+            height={300}
+
         />
-        <div className="absolute inset-0 flex items-center justify-center mb-4">
-          <ImageRotator/>
+        <div className="absolute inset-0 flex items-center justify-center">
+        <ImageRotator/>
         </div>
       </div>
       {/* Clinical & Pharma Workflows Section */}
@@ -56,14 +56,3 @@ const Products = () => {
 };
 
 export default Products;
-
-
-
-
-      {/* <div className="flex justify-center w-full pt-12">
-        <div className="w-1/3 flex justify-between items-center">
-          <img src="/images/globalreach.png" alt="Global Reach" className="h-auto w-auto max-h-32 max-w-full object-contain" />
-          <img src="/images/secureplatform.png" alt="Secure Platform" className="h-auto w-auto max-h-32 max-w-full object-contain" />
-          <img src="/images/instantresults.png" alt="Instant Results" className="h-auto w-auto max-h-32 max-w-full object-contain" />
-        </div>
-      </div> */}
