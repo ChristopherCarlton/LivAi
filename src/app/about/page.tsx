@@ -60,7 +60,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Sarva Channarajurs</h3>
               <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-600 max-w-[400px] mx-auto">
-                Co-founder &amp; Chairman, Mike has a history building global network and cloud infrastructure platforms. He has spent the last ten years working in healthcare and AI looking to solve problems that make a meaningful difference in people&apos;s lives.
+                Sarva is a technologist with extensive experience leading programs at large companies and startups. Following the loss of her son to pediatric brain cancer, DIPG, Sarva shifted focus to patient advocacy and advising health tech companies to ensure patient-centered innovation. She has moderated panels at the White House Cancer Moonshot’s Childhood Cancer Forum and lobbied for increased childhood cancer funding on Capitol Hill. Sarva is President and Co-Founder of Mithil Prasad Foundation.
               </p>
             </div>
           </div>

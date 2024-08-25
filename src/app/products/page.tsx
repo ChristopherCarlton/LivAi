@@ -31,9 +31,39 @@ const Products = () => {
               height={300}
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">MRAI Diagnostic Solutions for Hospitals & Clinics</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">
+              <span className="inline-flex items-center">
+                MRAI
+                <img
+                  src="/images/trademark.png"
+                  alt="Trademark"
+                  className="inline-block ml-1 w-4 h-4"
+                />
+                <span className="ml-2">Diagnostic Solutions for Hospitals & Clinics</span>
+              </span>
+            </h3>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 text-left md:text-center">
-              Our proprietary MRAI solution serves as a clinical decision-support for oncology treatment management. Oncologists/clinical care providers can request MRAI analysis to perform detailed tumor assessment, through the entire patient’s journey. Results are instantaneous. The cloud platform is accessible to the clinical care providers, radiologists, and patients to access information at any time. 
+              Our proprietary 
+              <span className="inline-flex items-center ml-2">
+                MRAI
+                <img
+                  src="/images/trademark.png"
+                  alt="Trademark"
+                  className="inline-block ml-1 w-4 h-4"
+                />
+                <span className="ml-2"></span>
+              </span> 
+                solution serves as a clinical decision-support for oncology treatment management. Oncologists/clinical care providers can request 
+              <span className="inline-flex items-center ml-2">
+                MRAI
+                <img
+                  src="/images/trademark.png"
+                  alt="Trademark"
+                  className="inline-block ml-1 w-4 h-4"
+                />
+                <span className="ml-2"></span>
+              </span> 
+              analysis to perform detailed tumor assessment, through the entire patient’s journey. Results are instantaneous. The cloud platform is accessible to the clinical care providers, radiologists, and patients to access information at any time.
             </p>
           </div>
           <div className="w-full md:w-1/2 px-4 flex flex-col items-center delay-100">
@@ -44,9 +74,31 @@ const Products = () => {
               height={300}
               className="w-full h-[300px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">MRAI Analytics Platform for Pharma & Research</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-left md:text-center">
+              <span className="inline-flex items-center">
+                MRAI
+                <img
+                  src="/images/trademark.png"
+                  alt="Trademark"
+                  className="inline-block ml-1 w-4 h-4"
+                />
+                <span className="ml-2"></span>
+              </span>
+              Analytics Platform for Pharma & Research
+            </h3>
+
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 text-left md:text-center">
-              LivAi provides innovative, research-backed AI solutions for oncology to help pharma through the entire cycle of drug development and clinical trial management. We offer diverse services including inclusion/exclusion, patient selection, and treatment management using MRAI-driven biomarkers . Our solutions are scientifically proven and offer substantial value as they utilize clinical MRI scans, and thus are non-disruptive to the existing clinical workup for a patient on a clinical trial.
+              LivAi provides innovative, research-backed AI solutions for oncology to help pharma through the entire cycle of drug development and clinical trial management. We offer diverse services including inclusion/exclusion, patient selection, and treatment management using 
+              <span className="inline-flex items-center ml-2">
+                MRAI
+                <img
+                  src="/images/trademark.png"
+                  alt="Trademark"
+                  className="inline-block ml-1 w-4 h-4"
+                />
+                <span className="ml-1"></span>
+              </span> 
+              -driven biomarkers. Our solutions are scientifically proven and offer substantial value as they utilize clinical MRI scans, and thus are non-disruptive to the existing clinical workup for a patient on a clinical trial.
             </p>
           </div>
         </div>

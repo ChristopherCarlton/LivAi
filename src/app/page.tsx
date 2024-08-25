@@ -45,31 +45,39 @@ function Page() {
   }, []);
 
   return (
-    <div className="bg-secondary text-primary">
-      <section className="relative overflow-hidden fade-in opacity-0 transition-opacity duration-1000 max-h-[800px]">
-        <div className="w-full h-auto bg-cover bg-top">
-          <video
-            ref={videoRef}
-            src="/images/movie.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover object-top"
-            style={{ maxHeight: '500px' }}
-          ></video>
-        </div>
-        <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-8">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white pb-16">
-            AI-Powered Cancer Diagnostics <br />Using Medical Imaging
-          </h1>
-        </div>
-      </section>
+            <div className="bg-secondary text-primary">
+              <section className="relative overflow-hidden fade-in opacity-0 transition-opacity duration-1000 max-h-[800px]">
+                <div className="w-full h-auto bg-cover bg-top">
+                  <video
+                    ref={videoRef}
+                    src="/images/movie.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover object-top"
+                    style={{ maxHeight: '500px' }}
+                  ></video>
+                </div>
+                <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-8">
+                  <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white pb-16">
+                    AI-Powered Cancer Diagnostics <br />Using Medical Imaging
+                  </h1>
+                </div>
+              </section>
 
-      <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
-        <div className="text-center mb-8">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary">Turning MRI into MRAI</h2>     
+              <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
+              <div className="text-center mb-8">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary">
+            Turning MRI into MRAI
+            <img
+              src="/images/trademark.png"
+              alt="Trademark"
+              className="inline-block ml-2 w-6 h-6"
+            />
+          </h2>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <Image
             src="/images/TitleImage.webp"
