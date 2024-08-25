@@ -1,21 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
-import ImageRotator from '../components/imageRotator';
+import TextRotator from '@/app/components/textRotator';
 
 const Products = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-secondary">
       <div className="relative w-full">
-        <video
-          className="w-full h-[400px] object-cover"
-          src="/images/clinical.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
+        <Image
+            className="w-full h-[400px] object-cover"
+            src="/images/y.jpg"
+            alt="Supporting Clinical Decisions"
+            width={600}
+            height={300}
+
         />
-        <div className="absolute inset-0 flex items-center justify-center mb-4">
-          <ImageRotator/>
+        <div className="absolute inset-0 flex items-center justify-center">
+        <TextRotator/>
         </div>
       </div>
       {/* Clinical & Pharma Workflows Section */}
@@ -25,7 +25,7 @@ const Products = () => {
         <div className="flex flex-col md:flex-row justify-center items-start md:space-x-8 space-y-8 md:space-y-0">
           <div className="w-full md:w-1/2 px-4 flex flex-col items-center">
             <Image
-              src="/images/ClinicalDecisions.png"
+              src="/images/ClinicalDecisions.jpg"
               alt="Supporting Clinical Decisions"
               width={600}
               height={300}
@@ -38,7 +38,7 @@ const Products = () => {
           </div>
           <div className="w-full md:w-1/2 px-4 flex flex-col items-center delay-100">
             <Image
-              src="/images/ClinicalTrials.webp"
+              src="/images/ClinicalTrials.jpg"
               alt="Supporting Clinical Trials"
               width={600}
               height={300}
@@ -59,7 +59,6 @@ export default Products;
 
 
 
-
       {/* <div className="flex justify-center w-full pt-12">
         <div className="w-1/3 flex justify-between items-center">
           <img src="/images/globalreach.png" alt="Global Reach" className="h-auto w-auto max-h-32 max-w-full object-contain" />
@@ -67,3 +66,19 @@ export default Products;
           <img src="/images/instantresults.png" alt="Instant Results" className="h-auto w-auto max-h-32 max-w-full object-contain" />
         </div>
       </div> */}
+
+
+      // <div className="flex flex-col items-center justify-center min-h-screen bg-secondary">
+      // <div className="relative w-full">
+      //   <video
+      //     className="w-full h-[400px] object-cover"
+      //     src="/images/clinical.mp4"
+      //     autoPlay
+      //     loop
+      //     muted
+      //     playsInline
+      //   />
+      //   <div className="absolute inset-0 flex items-center justify-center mb-4">
+      //     <ImageRotator/>
+      //   </div>
+      // </div>
