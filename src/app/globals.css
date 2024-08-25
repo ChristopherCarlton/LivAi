@@ -4,11 +4,11 @@
 
 
 @layer base {
-   h1 {
+   /* h1 {
     @apply font-semibold font-craftgothic;
-   } 
+   }  */
    
-   h2, h3 {
+   h1, h2, h3 {
     @apply font-craftgothicRegular font-semibold;
   } 
    /* p {
