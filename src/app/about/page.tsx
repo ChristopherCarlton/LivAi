@@ -65,55 +65,55 @@ const About = () => {
           </div>
         </section>
         <section className="py-4 px-4 md:px-16 lg:px-32 text-white fade-in transition-opacity duration-1000">
-  <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Advisors</h2>
-  <div className="bg-gray-800 h-0.5 mb-10"></div>
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
-    <div className="text-center">
-      <a href="https://www.linkedin.com/in/schusterdavid/" target="_blank" rel="noopener noreferrer">
-        <Image src="/images/DavidSchuster.jpeg" alt="David Schuster" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-      </a>
-      <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">David Schuster</p>
-    </div>
-    <div className="text-center">
-      <a href="https://www.linkedin.com/in/ramy-ibrahim-91587515/" target="_blank" rel="noopener noreferrer">
-        <Image src="/images/RamyIbrahim.webp" alt="Ramy Ibrahim MD" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-      </a>
-      <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Ramy Ibrahim MD</p>
-    </div>
-    <div className="text-center">
-      <a href="https://www.linkedin.com/in/glen-taylor-a92b9843/" target="_blank" rel="noopener noreferrer">
-        <Image src="/images/GlenTaylor.webp" alt="Glen Taylor" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-      </a>
-      <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Glen Taylor</p>
-    </div>
-    <div className="text-center">
-      <a href="https://www.linkedin.com/in/gary610/" target="_blank" rel="noopener noreferrer">
-        <Image src="/images/GaryAdey.png" alt="Gary Adey" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-      </a>
-      <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Gary Adey</p>
-    </div>
-  </div>
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center mt-8">
-    <div className="text-center">
-      <a href="https://www.linkedin.com/in/rebecca-driscoll-6aa82926/" target="_blank" rel="noopener noreferrer">
-        <Image src="/images/RebeccaDriscoll.png" alt="Rebecca Driscoll" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-      </a>
-      <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Rebecca Driscoll</p>
-    </div>
-    <div className="text-center">
-      <a href="https://www.linkedin.com/in/jaikum/" target="_blank" rel="noopener noreferrer">
-        <Image src="/images/JaiKumar.webp" alt="Jai Kumar" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-      </a>
-      <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Jai Kumar</p>
-    </div>
-    <div className="text-center">
-      <a href="https://www.linkedin.com/in/robertbrown/" target="_blank" rel="noopener noreferrer">
-        <Image src="/images/RobertBrown.png" alt="Robert Brown" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
-      </a>
-      <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Robert Brown</p>
-    </div>
-  </div>
-</section>
+          <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Advisors</h2>
+          <div className="bg-gray-800 h-0.5 mb-10"></div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
+            <div className="text-center">
+              <a href="https://www.linkedin.com/in/schusterdavid/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/DavidSchuster.jpeg" alt="David Schuster" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">David Schuster</p>
+            </div>
+            <div className="text-center">
+              <a href="https://www.linkedin.com/in/ramy-ibrahim-91587515/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/RamyIbrahim.webp" alt="Ramy Ibrahim MD" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Ramy Ibrahim MD</p>
+            </div>
+            <div className="text-center">
+              <a href="https://www.linkedin.com/in/glen-taylor-a92b9843/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/GlenTaylor.webp" alt="Glen Taylor" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Glen Taylor</p>
+            </div>
+            <div className="text-center">
+              <a href="https://www.linkedin.com/in/gary610/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/GaryAdey.png" alt="Gary Adey" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Gary Adey</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center mt-8">
+            <div className="text-center">
+              <a href="https://www.linkedin.com/in/rebecca-driscoll-6aa82926/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/RebeccaDriscoll.png" alt="Rebecca Driscoll" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Rebecca Driscoll</p>
+            </div>
+            <div className="text-center">
+              <a href="https://www.linkedin.com/in/jaikum/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/JaiKumar.webp" alt="Jai Kumar" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Jai Kumar</p>
+            </div>
+            <div className="text-center">
+              <a href="https://www.linkedin.com/in/robertbrown/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/RobertBrown.png" alt="Robert Brown" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              </a>
+              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Robert Brown</p>
+            </div>
+          </div>
+        </section>
 
       </div>
     </>
