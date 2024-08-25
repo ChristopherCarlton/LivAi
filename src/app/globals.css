@@ -4,8 +4,12 @@
 
 
 @layer base {
-   h1, h2, h3 {
+   h1 {
     @apply font-semibold font-craftgothic;
+   } 
+   
+   h2, h3 {
+    @apply font-craftgothicRegular font-semibold;
   } 
    /* p {
     @apply font-craftgothiclight;
@@ -45,6 +49,13 @@
 @font-face {
   font-family: 'Craft Gothic Light Condensed';
   src: url('/fonts/CraftGothic-LightCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Craft Gothic Regular';
+  src: url('/fonts/CraftGothic-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
