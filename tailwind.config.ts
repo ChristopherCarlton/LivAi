@@ -18,9 +18,9 @@ const config: Config = {
       },
       fontFamily: {
         craftgothic: ['Craft Gothic', 'sans-serif'], // Craft Gothic Black
-        craftgothiclight: ['Craft Gothic Light', 'sans-serif'], // Craft Gothic Light
-        craftgothiclightcondensed: ['Craft Gothic Light Condensed', 'sans-serif'], // Craft Gothic Light Condensed
         craftgothicRegular: ['Craft Gothic Regular', 'sans-serif'], // Craft Gothic Regular
+        compita: ['Compita', 'sans-serif'], // Craft Gothic Regular
+        acariSans: ['AcariSans', 'sans-serif'],
       },
       animation: {
         scroll: 'scroll 60s linear infinite',

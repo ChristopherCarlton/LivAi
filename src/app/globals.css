@@ -3,18 +3,32 @@
 @tailwind utilities;
 
 
-@layer base {
-   /* h1 {
-    @apply font-semibold font-craftgothic;
-   }  */
-   
+/* @layer base {
    h1, h2, h3 {
     @apply font-craftgothicRegular font-semibold;
   } 
    p {
     @apply font-craftgothicRegular font-semibold;
   } 
+} */
+
+@layer base {
+  h1, h2, h3 {
+   @apply font-acariSans font-semibold;
+ } 
+  p {
+   @apply font-acariSans font-semibold;
+ } 
 }
+
+/* @layer base {
+  h1, h2, h3 {
+   @apply font-compita font-semibold;
+ } 
+  p {
+   @apply font-compita font-semibold;
+ } 
+} */
 
 
 
@@ -40,22 +54,22 @@
 }
 
 @font-face {
-  font-family: 'Craft Gothic Light';
-  src: url('/fonts/CraftGothic-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Craft Gothic Light Condensed';
-  src: url('/fonts/CraftGothic-LightCondensed.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Craft Gothic Regular';
   src: url('/fonts/CraftGothic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Compita';
+  src: url('/fonts/Fontspring-DEMO-compita-regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcariSans';
+  src: url('/fonts/AcariSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
