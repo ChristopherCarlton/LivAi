@@ -7,9 +7,9 @@ const TextAppearFade = () => {
   const [displayedText, setDisplayedText] = useState('');
   const [isRemoving, setIsRemoving] = useState(false);
   const texts = [
-    'Global Reach',
-    'Secure Platform',
-    'Instant Results'
+    'Global Reach.',
+    'Secure Platform.',
+    'Instant Results.'
   ];
 
   useEffect(() => {

@@ -59,26 +59,18 @@ function Page() {
             style={{ maxHeight: '500px' }}
           ></video>
         </div>
-        {/* <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-8">
+        {/* Existing div for larger screens */}
+        <div className="hidden sm:flex absolute inset-0 flex-col justify-end items-center text-center pb-8">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white pb-16">
             AI-Powered Cancer Diagnostics <br />Using Medical Imaging
           </h1>
-        </div> */}
-
-        {/* Existing div for larger screens */}
-<div className="hidden sm:flex absolute inset-0 flex-col justify-end items-center text-center pb-8">
-  <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white pb-16">
-    AI-Powered Cancer Diagnostics <br />Using Medical Imaging
-  </h1>
-</div>
-
-{/* New div for mobile screens */}
-<div className="flex sm:hidden absolute inset-0 flex-col justify-end items-center text-center pb-8">
-  <h1 className="text-2xl text-white pb-8">
-    AI-Powered Cancer Diagnostics <br />Using Medical Imaging
-  </h1>
-</div>
-
+        </div>
+        {/* New div for mobile screens */}
+        <div className="flex sm:hidden absolute inset-0 flex-col justify-end items-center text-center pb-8">
+          <h1 className="text-2xl text-white pb-8">
+            AI-Powered Cancer Diagnostics <br />Using Medical Imaging
+          </h1>
+        </div>
       </section>
 
       <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
@@ -101,7 +93,7 @@ function Page() {
             height={150}
             className="w-3/4 h-auto mb-8 md:mb-0 rounded-lg mx-auto"
           />
-          <div className="text-center md:text-left flex flex-col items-center md:items-start">
+          <div className="text-center flex flex-col items-center md:items-start">
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-800">
               LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in oncology.
             </p>

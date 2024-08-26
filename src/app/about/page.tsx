@@ -20,7 +20,7 @@ const About = () => {
                 <Image src="/images/PallaviTiwari.png" alt="Pallavi Tiwari PhD" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded-full mb-4 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Pallavi Tiwari PhD</h3>
-              <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
+              <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
                 Founder &amp; President, Pallavi is a lead AI in Healthcare Researcher and Biomedical Engineer. Over the past 15 years, she has developed the foundation and patents for LivAi. Pallavi is a keynote and TEDX speaker with a growing reputation as a leader in her field.
               </p>
             </div>
@@ -29,7 +29,7 @@ const About = () => {
                 <Image src="/images/MikeGalvin.png" alt="Mike Galvin" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded-full mb-4 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Mike Galvin</h3>
-              <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
+              <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
                 Co-founder &amp; Chairman, Mike has a history building global network and cloud infrastructure platforms. He has spent the last ten years working in healthcare and AI looking to solve problems that make a meaningful difference in people&apos;s lives.
               </p>
             </div>
@@ -38,7 +38,7 @@ const About = () => {
                 <Image src="/images/JimKarkanias.png" alt="Jim Karkanias PhD" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded-full mb-4 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Jim Karkanias PhD</h3>
-              <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
+              <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
                 Chief Technology Officer, Jim has a long and distinguished career working in healthcare and life sciences specifically on ML/AI. He has founded teams for some of the world&apos;s biggest companies.
               </p>
             </div>
@@ -49,7 +49,7 @@ const About = () => {
                 <Image src="/images/ManmeetAhluwalia.png" alt="Manmeet Ahluwalia MD" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded-full mb-4 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Manmeet Ahluwalia MD</h3>
-              <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
+              <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
                 Chief Medical Advisor, Manmeet is a world-renowned neuro-oncologist and medical oncologist at Baptist Health Miami Cancer Institute. Specializing in primary brain tumors and brain metastases, his research has resulted in significant advancements in cancer treatment. He has numerous prestigious awards, including the current Most Distinguished Physician Award of AAPI and ASCO Fellowship.
               </p>
             </div>
@@ -58,7 +58,7 @@ const About = () => {
                 <Image src="/images/SarvaChannarajurs.jpeg" alt="Sarva Channarajurs" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded-full mb-4 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Sarva Channarajurs</h3>
-              <p className="text-left text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
+              <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
                 Sarva is a technologist with extensive experience leading programs at large companies and startups. Following the loss of her son to pediatric brain cancer, DIPG, Sarva had advised health tech companies building patient centered innovation. She has moderated panels at the White House Cancer Moonshot’s Childhood Cancer Forum. Sarva is President and Co-Founder of Mithil Prasad Foundation.
               </p>
             </div>

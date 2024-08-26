@@ -138,28 +138,37 @@ function Header() {
   
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-[80px] left-0 w-full bg-[#1A3677] shadow-lg transition-all duration-700">
-          <nav className="flex flex-col items-center space-y-2 sm:space-y-4 py-4">
-            {navItems.map((item, index) => (
-              <a
-                key={index}
-                href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                className="text-sm sm:text-base md:text-lg text-white hover:text-[#00BFFF] transition-colors"
-                onClick={() => handleTabClick(item)} // Update active tab on click
-              >
-                {item}
-              </a>
-            ))}
-            <a
-              href="/connect"
-              className="text-sm sm:text-base md:text-lg px-4 py-2 rounded-full transition-colors bg-transparent border border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white"
-              onClick={toggleMenu}
-            >
-              Request a Meeting
-            </a>
-          </nav>
-        </div>
-      )}
+  <div className="md:hidden absolute top-[80px] left-0 w-full bg-[#1A3677] shadow-lg transition-all duration-700">
+    <nav className="flex flex-col items-center space-y-2 sm:space-y-4 py-4">
+      {navItems.map((item, index) => {
+        const itemPath =
+          item === "Home"
+            ? "/"
+            : item === "Investors & Partners"
+            ? "/investors-&-partners"
+            : `/${item.toLowerCase().replace(/\s+/g, "-")}`; // Handle spaces in other paths
+        return (
+          <a
+            key={index}
+            href={itemPath}
+            className="text-sm sm:text-base md:text-lg text-white hover:text-[#00BFFF] transition-colors"
+            onClick={() => handleTabClick(item)} // Update active tab on click
+          >
+            {item}
+          </a>
+        );
+      })}
+      <a
+        href="/connect"
+        className="text-sm sm:text-base md:text-lg px-4 py-2 rounded-full transition-colors bg-transparent border border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white"
+        onClick={toggleMenu}
+      >
+        Request a Meeting
+      </a>
+    </nav>
+  </div>
+)}
+
     </header>
   );
   

@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 const TextAppearOnce = () => {
   const [displayedText, setDisplayedText] = useState('');
   const [hasScrolledToBottom, setHasScrolledToBottom] = useState(false);
-  const texts = 'Precision Beyond Sight';
+  const texts = 'Precision Beyond Sight.';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,6 +28,13 @@ const TextAppearOnce = () => {
           setDisplayedText(texts.slice(0, charIndex));
           charIndex++;
           timeout = setTimeout(typeText, 100); // Typing speed (in ms)
+        } else {
+          // Reset the text and start again for looping effect
+          setTimeout(() => {
+            charIndex = 0;
+            setDisplayedText('');
+            typeText();
+          }, 5000); // 5-second pause before looping (in ms)
         }
       };
 

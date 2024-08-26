@@ -21,7 +21,8 @@ const Products = () => {
       </div>
       {/* Clinical & Pharma Workflows Section */}
       <section className="py-12 px-4 md:px-16 bg-secondary fade-in transition-opacity duration-1000">
-        <h2 className="text-center text-4xl mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>
+        <h2 className="text-center text-4xl sm:text-5xl md:text-6xl  mt-5 mb-10 font-semibold text-primary">Clinical & Pharma Workflows</h2>
+        
         <div className="bg-white h-0.5 mb-10"></div>
         <div className="flex flex-col justify-center items-center space-y-8">
           <div className="w-full px-4 md:px-16 flex flex-col items-center">
@@ -32,13 +33,13 @@ const Products = () => {
               height={300}
               className="w-full h-[400px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-center">
+            <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center">
               <span className="inline-flex items-center">
                 MRAI
                 <img
                   src="/images/trademark.png"
                   alt="Trademark"
-                  className="inline-block ml-1 w-4 h-4"
+                  className="inline-block ml-1 md:mr-1 w-4 h-4"
                 />
               </span>
               Diagnostic Solutions for Hospitals & Clinics
@@ -73,13 +74,13 @@ const Products = () => {
               height={300}
               className="w-full h-[400px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
-            <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 text-center">
+            <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center">
               <span className="inline-flex items-center">
                 MRAI
                 <img
                   src="/images/trademark.png"
                   alt="Trademark"
-                  className="inline-block ml-1 w-4 h-4"
+                  className="inline-block ml-1 md:mr-1 w-4 h-4"
                 />
               </span>
               Analytics Platform for Pharma & Research
