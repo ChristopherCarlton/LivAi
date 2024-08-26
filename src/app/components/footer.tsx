@@ -4,10 +4,10 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-      <footer className="relativ text-white py-16"
-        style={{
-          background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", // Updated gradient with new color
-        }}
+      <footer className="relativ bg-white text-gray-600 py-16"
+        // style={{
+        //   background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", 
+        // }}
       >
       <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between items-center">
         
@@ -27,7 +27,8 @@ const Footer = () => {
         <div className="text-center">
           <a href="/">
             <Image
-              src="/images/logo1.png"
+              //  src="/images/logo1.png"
+              src="/images/logo2.png"
               alt="LivAI Logo"
               width={192} // Set the width (adjust as needed)
               height={192} // Set the height (adjust as needed)

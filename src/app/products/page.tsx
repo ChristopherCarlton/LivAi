@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import TextRotator from '@/app/components/textRotator';
+import TextAppear from '../components/textAppear';
 
 const Products = () => {
   return (
@@ -15,7 +16,8 @@ const Products = () => {
 
         />
         <div className="absolute inset-0 flex items-center justify-center">
-        <TextRotator/>
+        {/* <TextRotator/> */}
+        <TextAppear/>
         </div>
       </div>
       {/* Clinical & Pharma Workflows Section */}

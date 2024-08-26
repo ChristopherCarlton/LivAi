@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 
 function Header() {
-  const navItems = ["Home", "About", "Media", "Video", "Products"];
+  const navItems = ["Home", "About", "Media", "Investors & Partners", "Products"];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState(""); // Default to no active tab initially
   const router = useRouter();
@@ -15,8 +15,8 @@ function Header() {
   useEffect(() => {
     if (pathname === "/") {
       setActiveTab("Home");
-    } else if (pathname?.includes("/video")) {
-      setActiveTab("Video");
+    } else if (pathname?.includes("/investors-&-partners")) {
+      setActiveTab("Investors & Partners");
     } else if (pathname?.includes("/products")) {
       setActiveTab("Products");
     } else if (pathname?.includes("/connect")) {
@@ -25,7 +25,6 @@ function Header() {
       setActiveTab(""); // No active tab for other pages
     }
   }, [pathname]);
-  
 
   // Update active tab based on scroll position (Home page only)
   useEffect(() => {
@@ -82,6 +81,8 @@ function Header() {
       } else {
         router.push(`/#${item.toLowerCase()}`);
       }
+    } else if (item === "Investors & Partners") {
+      router.push("/investors-&-partners");
     } else {
       router.push(`/${item.toLowerCase()}`);
     }
