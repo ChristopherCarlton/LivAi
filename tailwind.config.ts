@@ -9,8 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#7E57C2", // Dark Lavender
+        // primary: "#7E57C2", // Dark Lavender
         secondary: "#FFFFFF", // White
+
+        primary: '#14347b',
+
+
       },
       fontFamily: {
         craftgothic: ['Craft Gothic', 'sans-serif'], // Craft Gothic Black

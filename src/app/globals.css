@@ -11,9 +11,9 @@
    h1, h2, h3 {
     @apply font-craftgothicRegular font-semibold;
   } 
-   /* p {
-    @apply font-craftgothiclight;
-  }  */
+   p {
+    @apply font-craftgothicRegular font-semibold;
+  } 
 }
 
 

@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
-
+// background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", // Updated gradient with new color
 function Header() {
-  const navItems = ["Home", "About", "Media", "Investors & Partners", "Products"];
+  const navItems = ["Home", "About", "Media", "Products", "Investors & Partners"];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState(""); // Default to no active tab initially
   const router = useRouter();
@@ -90,23 +90,22 @@ function Header() {
 
   return (
     <header
-      className="sticky top-0 w-full z-50 text-white shadow-lg transition-all duration-700"
+      className="sticky top-0 w-full z-50 bg-primary text-white shadow-lg transition-all duration-700"
       style={{
         height: "80px",
-        background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", // Updated gradient with new color
       }}
     >
-      <div className="px-6 flex items-center justify-between h-full">
+      <div className="px-4 sm:px-6 flex items-center justify-between h-full">
         <div className="flex items-center h-full">
           <a href="/" className="h-full" onClick={() => handleTabClick("Home")}>
             <img
               src="/images/logo.png"
               alt="Logo"
-              className="h-full object-contain transition-opacity duration-700 opacity-100"
+              className="h-full object-contain"
             />
           </a>
         </div>
-        <nav className="hidden md:flex items-center space-x-6 lg:space-x-14 h-full">
+        <nav className="hidden md:flex items-center space-x-2 sm:space-x-4 lg:space-x-8 h-full">
           {navItems.map((item, index) => (
             <a
               key={index}
@@ -115,37 +114,37 @@ function Header() {
                 e.preventDefault();
                 handleNavigation(item);
               }}
-              className={`text-sm sm:text-base lg:text-xl hover:text-[#00BFFF] transition-colors ${
+              className={`text-xs sm:text-sm md:text-sm lg:text-base hover:text-[#00BFFF] transition-colors whitespace-nowrap ${
                 activeTab === item ? "text-white border-b-2 border-[#00BFFF]" : ""
               }`}
             >
               {item}
             </a>
           ))}
-          <div className="ml-6 lg:ml-14"></div>
+          <div className="ml-2 sm:ml-4 lg:ml-8"></div>
           <a
             href="/connect"
-            className="text-sm sm:text-base lg:text-xl px-3 sm:px-4 lg:px-6 py-1 rounded-full transition-colors bg-transparent border border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white whitespace-nowrap"
+            className="text-xs sm:text-sm md:text-sm lg:text-base px-2 sm:px-3 md:px-4 lg:px-6 py-1 rounded-full transition-colors bg-transparent border border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white whitespace-nowrap"
           >
             Request a Meeting
           </a>
         </nav>
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-3xl text-white">
+          <button onClick={toggleMenu} className="text-2xl sm:text-3xl text-white">
             {isMenuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
       </div>
-
+  
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden absolute top-[80px] left-0 w-full bg-[#1A3677] shadow-lg transition-all duration-700">
-          <nav className="flex flex-col items-center space-y-4 py-4">
+          <nav className="flex flex-col items-center space-y-2 sm:space-y-4 py-4">
             {navItems.map((item, index) => (
               <a
                 key={index}
                 href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                className="text-lg text-white hover:text-[#00BFFF] transition-colors"
+                className="text-sm sm:text-base md:text-lg text-white hover:text-[#00BFFF] transition-colors"
                 onClick={() => handleTabClick(item)} // Update active tab on click
               >
                 {item}
@@ -153,7 +152,7 @@ function Header() {
             ))}
             <a
               href="/connect"
-              className="text-lg px-6 py-2 rounded-full transition-colors bg-transparent border border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white"
+              className="text-sm sm:text-base md:text-lg px-4 py-2 rounded-full transition-colors bg-transparent border border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white"
               onClick={toggleMenu}
             >
               Request a Meeting
@@ -163,6 +162,7 @@ function Header() {
       )}
     </header>
   );
+  
 }
 
 export default Header;

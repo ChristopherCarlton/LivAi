@@ -1,14 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import TextAppearOnce from './textAppearOnce';
 
 const Footer = () => {
   return (
-      <footer className="relativ bg-white text-gray-600 py-16"
-        // style={{
-        //   background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", 
-        // }}
-      >
+      <footer className="relative bg-white text-gray-600 py-16">
       <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between items-center">
         
         {/* Contact Information */}
@@ -27,7 +24,7 @@ const Footer = () => {
         <div className="text-center">
           <a href="/">
             <Image
-              //  src="/images/logo1.png"
+              // src="/images/logo1.png"
               src="/images/logo2.png"
               alt="LivAI Logo"
               width={192} // Set the width (adjust as needed)
@@ -35,17 +32,19 @@ const Footer = () => {
               className="scale-150 mb-4 mx-auto"
             />
           </a>
+          {/* Text Animation */}
+          <TextAppearOnce />
         </div>
 
         {/* Newsletter Subscription */}
         <div className="text-center">
           <h3 className="text-xl font-semibold mb-4">Stay in touch</h3>
-          <p className="mb-4 text-gray-300">Updates directly to your inbox</p>
+          <p className="mb-4 text-gray-800">Updates directly to your inbox</p>
           <form className="space-y-4">
             <input
               type="email"
               placeholder="Email"
-              className="w-full px-4 py-2 border border-gray-300 rounded bg-transparent text-white"
+              className="w-full px-4 py-2 border border-gray-800 rounded bg-transparent text-gray-800"
             />
             <div className="flex items-center justify-center space-x-2">
               <input
@@ -53,7 +52,7 @@ const Footer = () => {
                 id="subscribe"
                 className="h-4 w-4 text-primary focus:ring-2 focus:ring-primary border-gray-300 rounded"
               />
-              <label htmlFor="subscribe" className="text-gray-300">
+              <label htmlFor="subscribe" className="text-gray-800">
                 Opt in to receive news and updates.
               </label>
             </div>
