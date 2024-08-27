@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="theme-color" content="#14347b" />
+      </head>
       <body className={`${inter.className}`}>
         <Header /> {/* Set the activeTab as needed */}
         {children}

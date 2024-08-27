@@ -74,7 +74,7 @@ function Page() {
       </section>
 
       <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
-        {/* <div className="text-center mb-8">
+        <div className="text-center mb-8">
           <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary">
             Turning MRI into MRAI
             <img
@@ -83,8 +83,8 @@ function Page() {
               className="inline-block ml-2 w-6 h-6"
             />
           </h2>
-        </div> */}
-        <div className="text-center mb-8">
+        </div>
+        {/* <div className="text-center mb-8">
           <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary flex items-center justify-center">
             Turning MRI into 
             <span className="whitespace-nowrap flex items-center ml-2">
@@ -96,7 +96,7 @@ function Page() {
               />
             </span>
           </h2>
-        </div>
+        </div> */}
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
