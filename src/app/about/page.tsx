@@ -4,7 +4,6 @@ const About = () => {
   return (
     <>
       {/* Founding Team Section */}
-      {/* bg-gradient-to-br from-secondary to-gray-800 */}
       <div className='bg-secondary fade-in opacity-95 transition-opacity duration-1000'>
         <section className="py-4 px-4 md:px-16 lg:px-32 fade-in transition-opacity duration-1000">
           <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Who are we?</h2>
@@ -21,7 +20,8 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Pallavi Tiwari PhD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Founder &amp; President, Dr. Pallavi Tiwari is a leading biomedical researcher and thought leader in Artificial Intelligence for precision medicine. Pallavi's research serves as the foundation and patents for LivAi. Pallavi was inducted in the National Academy of Inventors in 2023 and has been a recipient of several scientific awards, including being named as one of 100 women achievers by the Government of India for making a positive impact in the field of Science and Innovation. </p>
+                Founder &amp; President, Dr. Pallavi Tiwari is a leading biomedical researcher and thought leader in Artificial Intelligence for precision medicine. Pallavi&apos;s research serves as the foundation and patents for LivAi. Pallavi was inducted into the National Academy of Inventors in 2023 and has been a recipient of several scientific awards, including being named as one of 100 women achievers by the Government of India for making a positive impact in the field of Science and Innovation.
+              </p>
             </div>
             <div className="text-center flex-grow delay-100">
               <a href="https://www.linkedin.com/in/mike-galvin-sf/" target="_blank" rel="noopener noreferrer">
@@ -38,12 +38,13 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Jim Karkanias PhD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Jim brings over three decades of unparalleled expertise spanning science, technology, and business. With a distinguished career at leading healthcare technology firms, he's not only shaped strategies but also catalyzed innovation as an entrepreneur.
+                Jim brings over three decades of unparalleled expertise spanning science, technology, and business. With a distinguished career at leading healthcare technology firms, he&apos;s not only shaped strategies but also catalyzed innovation as an entrepreneur.
 
-                Jim's illustrious career includes pivotal roles such as CTO at CZ Biohub. He also led clinical operations for Merck's human health division and spearheaded Microsoft's Cloud + Enterprise Division, where he co-founded the renowned MSFT health division.
+                Jim&apos;s illustrious career includes pivotal roles such as CTO at CZ Biohub. He also led clinical operations for Merck&apos;s human health division and spearheaded Microsoft&apos;s Cloud + Enterprise Division, where he co-founded the renowned MSFT health division.
 
                 He holds a Ph.D. in bioengineering from Drexel University, along with a Master of Science and Bachelor of Science from Rutgers University and has a portfolio of 76 patents.
               </p>
+
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8 mt-8">
