@@ -10,8 +10,8 @@ const About = () => {
           <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Who are we?</h2>
           <div className="bg-gray-800 h-0.5 mb-10"></div>
           <div className="text-center py-4 px-4 md:px-16 lg:px-32">
-              <p className="text-2xl font-medium text-gray-800 pb-8 mx-auto">
-                  We are a group of driven entrepreneurs, scientists, and clinical care providers who are passionate about making a difference in improving treatment management and patient outcomes in oncology. LivAi is built on over 10-years of innovative and proven-research, with a vision to improve treatment management in cancer, as we know it.
+              <p className="text-3xl font-medium text-gray-800 pb-8 mx-auto">
+                  We are a group of driven entrepreneurs, scientists, and clinical care providers who are passionate about making a difference in improving treatment management and patient outcomes in oncology.<br/> LivAi is built on over 10-years of innovative and proven-research, with a vision to improve treatment management in cancer, as we know it.
               </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
@@ -50,7 +50,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Manmeet Ahluwalia MD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Chief Medical Advisor, Manmeet is a world-renowned neuro-oncologist and medical oncologist at Baptist Health Miami Cancer Institute. Specializing in primary brain tumors and brain metastases, his research has resulted in significant advancements in cancer treatment. He has numerous prestigious awards, including the current Most Distinguished Physician Award of AAPI and ASCO Fellowship.
+                Chief Medical Advisor, Manmeet is a world-renowned medical oncologist at Baptist Health Miami Cancer Institute. Specializing in primary brain tumors and brain metastases, his research has resulted in significant advancements in cancer treatment. He has numerous prestigious awards, including the current Most Distinguished Physician Award of AAPI and ASCO Fellowship.
               </p>
             </div>
             <div className="text-center delay-400">
@@ -59,7 +59,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Sarva Channarajurs</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Sarva is a technologist with extensive experience leading programs at large companies and startups. Following the loss of her son to pediatric brain cancer, DIPG, Sarva had advised health tech companies building patient centered innovation. She has moderated panels at the White House Cancer Moonshot’s Childhood Cancer Forum. Sarva is President and Co-Founder of Mithil Prasad Foundation.
+                Sarva is a technologist with extensive experience leading programs at large companies and startups. Following the loss of her son to pediatric brain cancer, DIPG, Sarva had advised health tech companies building patient centered innovation. She has moderated panels at the White House Cancer Moonshot’s Childhood Cancer Forum. Sarva is President of Mithil Prasad Foundation.
               </p>
             </div>
           </div>
