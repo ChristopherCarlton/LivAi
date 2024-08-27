@@ -50,7 +50,7 @@ function Page() {
         <div className="w-full h-auto bg-cover bg-top flex">
             <video
                 ref={videoRef}
-                src="/images/movie4.mp4"
+                src="/videos/coverVideoLeft.mp4"
                 autoPlay
                 loop
                 muted 
@@ -60,7 +60,7 @@ function Page() {
             ></video>
             <video
                 ref={videoRef}
-                src="/images/movie2.mp4"
+                src="/videos/coverVideoRight.mp4"
                 autoPlay
                 loop
                 muted
