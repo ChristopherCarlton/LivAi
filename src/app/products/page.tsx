@@ -28,8 +28,8 @@ const Products = () => {
           <div className="w-full px-4 md:px-16 flex flex-col items-center">
             <div className="w-full h-auto max-w-4xl mb-4">
               <Image
-                src="/images/ClinicalDecisions.jpg"
-                alt="Supporting Clinical Decisions"
+                src="/images/ClinicalTrials.jpg"
+                alt="Supporting Clinical Trials"
                 layout="responsive"
                 width={1200} // Adjusted width for better aspect ratio
                 height={800}  // Adjusted height for better aspect ratio
@@ -79,8 +79,8 @@ const Products = () => {
           <div className="w-full px-4 md:px-16 flex flex-col items-center delay-100">
             <div className="w-full h-auto max-w-4xl mb-4">
               <Image
-                src="/images/ClinicalTrials.jpg"
-                alt="Supporting Clinical Trials"
+                src="/images/ClinicalDecisions.jpg"
+                alt="Supporting Clinical Decisions"
                 layout="responsive"
                 width={1200} // Adjusted width for better aspect ratio
                 height={800}  // Adjusted height for better aspect ratio
