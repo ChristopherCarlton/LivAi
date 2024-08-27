@@ -10,8 +10,8 @@ const About = () => {
           <h2 className="text-left text-5xl mt-5 mb-10 font-semibold text-primary">Who are we?</h2>
           <div className="bg-gray-800 h-0.5 mb-10"></div>
           <div className="text-center py-4 px-4 md:px-16 lg:px-32">
-              <p className="text-3xl font-medium text-gray-800 pb-8 mx-auto">
-                  We are a group of driven entrepreneurs, scientists, and clinical care providers who are passionate about making a difference in improving treatment management and patient outcomes in oncology.<br/> LivAi is built on over 10-years of innovative and proven-research, with a vision to improve treatment management in cancer, as we know it.
+              <p className="sm:text-lg md:text-xl lg:text-2xl font-medium text-gray-800 mx-auto">
+                  We are a group of driven entrepreneurs, scientists, and clinical care providers who are passionate about making a difference in improving treatment management and patient outcomes in oncology. LivAi is built on over 10-years of innovative and proven-research, with a vision to improve treatment management in cancer, as we know it.
               </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">

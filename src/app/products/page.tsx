@@ -31,7 +31,7 @@ const Products = () => {
               alt="Supporting Clinical Decisions"
               width={600}
               height={300}
-              className="w-full h-[400px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
+              className="w-full h-[400px] lg:h-[600px] xl:h-700 object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
             <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center">
               <span className="inline-flex items-center">
@@ -72,7 +72,7 @@ const Products = () => {
               alt="Supporting Clinical Trials"
               width={600}
               height={300}
-              className="w-full h-[400px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
+              className="w-full h-[400px] lg:h-[600px] xl:h-[700px] object-cover mb-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
             <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center">
               <span className="inline-flex items-center">

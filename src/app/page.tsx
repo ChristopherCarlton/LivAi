@@ -47,17 +47,27 @@ function Page() {
   return (
     <div className="bg-secondary text-primary">
       <section className="relative overflow-hidden fade-in opacity-0 transition-opacity duration-1000 max-h-[800px]">
-        <div className="w-full h-auto bg-cover bg-top">
-          <video
-            ref={videoRef}
-            src="/images/movie.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover object-top"
-            style={{ maxHeight: '500px' }}
-          ></video>
+        <div className="w-full h-auto bg-cover bg-top flex">
+            <video
+                ref={videoRef}
+                src="/images/movie4.mp4"
+                autoPlay
+                loop
+                muted 
+                playsInline
+                className="w-1/2 h-full object-cover object-top"
+                style={{ maxHeight: '800px' }}
+            ></video>
+            <video
+                ref={videoRef}
+                src="/images/movie2.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-1/2 h-full object-cover object-top"
+                style={{ maxHeight: '800px' }}
+            ></video>
         </div>
         {/* Existing div for larger screens */}
         <div className="hidden sm:flex absolute inset-0 flex-col justify-end items-center text-center pb-8">
@@ -67,7 +77,7 @@ function Page() {
         </div>
         {/* New div for mobile screens */}
         <div className="flex sm:hidden absolute inset-0 flex-col justify-end items-center text-center pb-8">
-          <h1 className="text-2xl text-white pb-8">
+          <h1 className="text-xl text-white pb-8">
             AI-Powered Cancer Diagnostics <br />Using Medical Imaging
           </h1>
         </div>
@@ -84,24 +94,9 @@ function Page() {
             />
           </h2>
         </div>
-        {/* <div className="text-center mb-8">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary flex items-center justify-center">
-            Turning MRI into 
-            <span className="whitespace-nowrap flex items-center ml-2">
-              MRAI
-              <img
-                src="/images/trademark.png"
-                alt="Trademark"
-                className="inline-block ml-2 w-4 h-4 sm:w-6 sm:h-6"
-              />
-            </span>
-          </h2>
-        </div> */}
-
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <Image
-            src="/images/TitleImage.webp"
+            src="/images/brain.png"
             alt="AI-driven medical imaging platform"
             width={150}
             height={150}
