@@ -29,7 +29,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Mike Galvin</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Co-founder &amp; Chairman, Mike has a history building global network and cloud infrastructure platforms. He has spent the last ten years working in healthcare and AI looking to solve problems that make a meaningful difference in people&apos;s lives.
+                Mike, Co-founder &amp; Chairman, is a visionary leader with a proven track record in building global network and cloud infrastructure platforms. With extensive expertise across Hyperscalers, Telcos, IT, and Media, Mike has consistently driven innovation and large-scale infrastructure deployment. He has successfully led global commercial teams and is deeply passionate about using innovation to solve real-world problems. Over the past decade, Mike has focused on healthcare and AI, aiming to make a significant impact on people’s lives. He is also a Fellow of the Chartered Institute of Marketing.
               </p>
             </div>
             <div className="text-center delay-200">
@@ -39,6 +39,7 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-primary mb-4">Jim Karkanias PhD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
                 Jim brings over three decades of unparalleled expertise spanning science, technology, and business. With a distinguished career at leading healthcare technology firms, he&apos;s not only shaped strategies but also catalyzed innovation as an entrepreneur. Jim&apos;s illustrious career includes pivotal roles such as CTO at CZ Biohub, leading clinical operations for Merck&apos;s human health division and spearheading Microsoft&apos;s Cloud + Enterprise Division, where he co-founded the renowned MSFT health division.
+                {/* Jim brings over three decades of expertise in science, technology, and business. With a distinguished career at top healthcare technology firms, he has shaped strategies and driven innovation as an entrepreneur. Jim’s career includes pivotal roles such as CTO at CZ Biohub, leading Merck's human health division, and co-founding Microsoft's renowned MSFT health division. */}
               </p>
             </div>
           </div>
