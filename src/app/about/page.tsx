@@ -21,8 +21,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Pallavi Tiwari PhD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Founder &amp; President, Pallavi is a lead AI in Healthcare Researcher and Biomedical Engineer. Over the past 15 years, she has developed the foundation and patents for LivAi. Pallavi is a keynote and TEDX speaker with a growing reputation as a leader in her field.
-              </p>
+                Founder &amp; President, Dr. Pallavi Tiwari is a leading researcher and thought leader in Artificial Intelligence for precision medicine. She has been a Healthcare Researcher and Biomedical Engineer for over 18-years and has been instrumental in developing the foundation and patents for LivAi. Pallavi was inducted in the National Academy of Inventors in 2023 and has been a recipient of several scientific awards, most notably being named as one of 100 women achievers by the Government of India for making a positive impact in the field of Science and Innovation.              </p>
             </div>
             <div className="text-center flex-grow delay-100">
               <a href="https://www.linkedin.com/in/mike-galvin-sf/" target="_blank" rel="noopener noreferrer">
