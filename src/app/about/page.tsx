@@ -38,7 +38,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Jim Karkanias PhD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Jim brings over three decades of unparalleled expertise spanning science, technology, and business. With a distinguished career at leading healthcare technology firms, he&apos;s not only shaped strategies but also catalyzed innovation as an entrepreneur. Jim&apos;s illustrious career includes pivotal roles such as CTO at CZ Biohub. He also led clinical operations for Merck&apos;s human health division and spearheaded Microsoft&apos;s Cloud + Enterprise Division, where he co-founded the renowned MSFT health division.
+                Jim brings over three decades of unparalleled expertise spanning science, technology, and business. With a distinguished career at leading healthcare technology firms, he&apos;s not only shaped strategies but also catalyzed innovation as an entrepreneur. Jim&apos;s illustrious career includes pivotal roles such as CTO at CZ Biohub, leading clinical operations for Merck&apos;s human health division and spearheading Microsoft&apos;s Cloud + Enterprise Division, where he co-founded the renowned MSFT health division.
               </p>
             </div>
           </div>
