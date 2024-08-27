@@ -40,7 +40,8 @@ const TextAppearFade = () => {
     <div className="flex justify-center w-full">
       <div className="flex justify-center items-center">
         <span
-          className={`text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white font-bold transition-opacity duration-500`}
+          className={`text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white transition-opacity duration-500`}
+          
         >
           {displayedText}
         </span>
