@@ -21,7 +21,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Pallavi Tiwari PhD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Founder &amp; President, Dr. Pallavi Tiwari is a leading researcher and thought leader in Artificial Intelligence for precision medicine. She has been a Healthcare Researcher and Biomedical Engineer for over 18-years and has been instrumental in developing the foundation and patents for LivAi. Pallavi was inducted in the National Academy of Inventors in 2023 and has been a recipient of several scientific awards, most notably being named as one of 100 women achievers by the Government of India for making a positive impact in the field of Science and Innovation.              </p>
+                Founder &amp; President, Dr. Pallavi Tiwari is a leading biomedical researcher and thought leader in Artificial Intelligence for precision medicine. Pallavi's research serves as the foundation and patents for LivAi. Pallavi was inducted in the National Academy of Inventors in 2023 and has been a recipient of several scientific awards, including being named as one of 100 women achievers by the Government of India for making a positive impact in the field of Science and Innovation. </p>
             </div>
             <div className="text-center flex-grow delay-100">
               <a href="https://www.linkedin.com/in/mike-galvin-sf/" target="_blank" rel="noopener noreferrer">
@@ -38,7 +38,11 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Jim Karkanias PhD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Chief Technology Officer, Jim has a long and distinguished career working in healthcare and life sciences specifically on ML/AI. He has founded teams for some of the world&apos;s biggest companies.
+                Jim brings over three decades of unparalleled expertise spanning science, technology, and business. With a distinguished career at leading healthcare technology firms, he's not only shaped strategies but also catalyzed innovation as an entrepreneur.
+
+                Jim's illustrious career includes pivotal roles such as CTO at CZ Biohub. He also led clinical operations for Merck's human health division and spearheaded Microsoft's Cloud + Enterprise Division, where he co-founded the renowned MSFT health division.
+
+                He holds a Ph.D. in bioengineering from Drexel University, along with a Master of Science and Bachelor of Science from Rutgers University and has a portfolio of 76 patents.
               </p>
             </div>
           </div>
