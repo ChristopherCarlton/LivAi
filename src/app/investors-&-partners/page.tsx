@@ -2,7 +2,7 @@ import React from 'react';
 
 const Video: React.FC = () => {
   return (
-    <div className="relative w-full bg-[#080c3c] pt-8 pb-[30rem] md:pb-[35rem] lg:pb-[40rem] xl:pb-[65rem]">
+    <div className="relative w-full bg-[#080c3c] pt-8 pb-[18rem] md:pb-[35rem] lg:pb-[40rem] xl:pb-[55rem]">
       <div className="w-full h-auto">
         <video
           src="/images/LivAI-V.mp4"
