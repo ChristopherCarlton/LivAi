@@ -36,7 +36,7 @@ const Products = () => {
                 className="object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <div className="w-full h-auto max-w-4xl px-4 md:px-0">
+            <div className="w-full h-auto max-w-4xl px-4 md:px-0 mt-8">
               <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center">
                 <span className="inline-flex items-center">
                   MRAI
@@ -48,7 +48,7 @@ const Products = () => {
                 </span>
                 Diagnostic Solutions for Hospitals & Clinics
               </h3>
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-800 text-center">
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-800 text-center mb-8">
                 Our proprietary
                 <span className="inline-flex items-center ml-2">
                   MRAI
@@ -87,7 +87,7 @@ const Products = () => {
                 className="object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <div className="w-full h-auto max-w-4xl px-4 md:px-0">
+            <div className="w-full h-auto max-w-4xl px-4 md:px-0 mt-8">
               <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center">
                 <span className="inline-flex items-center">
                   MRAI

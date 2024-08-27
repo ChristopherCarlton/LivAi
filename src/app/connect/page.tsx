@@ -100,17 +100,6 @@ function Connect() {
             <button className="w-full bg-[#4682B4] text-[#FFFFFF] py-2 rounded-md font-roboto hover:scale-105 transition-transform duration-300" type="submit">Send Message</button>
             {status && <p className="text-center mt-4 text-white">{status}</p>}
           </form>
-          <div className="mt-8 flex justify-center space-x-4">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-[#FFFFFF] hover:scale-110 transition-transform duration-300">
-              <FaFacebook size={30} />
-            </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#FFFFFF] hover:scale-110 transition-transform duration-300">
-              <FaTwitter size={30} />
-            </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#FFFFFF] hover:scale-110 transition-transform duration-300">
-              <FaLinkedin size={30} />
-            </a>
-          </div>
         </div>
       </main>
     </div>
