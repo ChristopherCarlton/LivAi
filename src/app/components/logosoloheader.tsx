@@ -18,3 +18,4 @@ const LogoSoloHeader = () => {
 };
 
 export default LogoSoloHeader;
+ 
