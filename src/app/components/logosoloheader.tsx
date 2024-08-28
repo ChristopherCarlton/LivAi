@@ -12,7 +12,7 @@ const LogoSoloHeader = () => {
         width={50} // Set the width
         height={50} // Set the height
       />
-      <span className="text-6xl">LivAi</span>
+      <span className=" text-5xl md:text-6xl">LivAi</span>
     </div>
   );
 };

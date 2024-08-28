@@ -1,11 +1,13 @@
 import React from 'react';
-import LogoSolo from './logosolo';
+import Image from 'next/image';
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import TextAppearOnce from './textAppearOnce';
+import LogoSolo from './logosolo';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-white text-black py-16">
-      <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between items-center">
+      <footer className="relative bg-white text-black py-16">
+      <div className="relative container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 justify-between items-center">
         
         {/* Contact Information */}
         <div className="text-center">
@@ -20,9 +22,9 @@ const Footer = () => {
         </div>
 
         {/* Logo and Social Icons */}
-        <div className="text-center flex flex-col items-center">
+        <div className="text-center items-center">
           <a href="/">
-            <LogoSolo />
+            <LogoSolo/>
           </a>
           {/* Text Animation */}
           <TextAppearOnce />
