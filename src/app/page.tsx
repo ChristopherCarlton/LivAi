@@ -1,3 +1,4 @@
+
 "use client";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
@@ -98,38 +99,25 @@ function Page() {
             />
           </h2>
         </div>
-
-
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
-  {/* Image spanning the first two columns */}
-  <div className="col-span-2 flex justify-end md:pr-4">
-    <Image
-      src="/images/brain.png"
-      alt="AI-driven medical imaging platform"
-      width={150}
-      height={150}
-      className="w-[400px] h-auto rounded-lg"
-    />
-  </div>
-
-  {/* Text content spanning the next two columns */}
-  <div className="col-span-2 flex flex-col items-center text-center md:text-left">
-    <p className="text-center sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-800">
-      LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in&nbsp;oncology.
-    </p>
-    <div className="flex justify-center w-full">
-      <a href="/connect" className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
-        Request Demo
-      </a>
-    </div>
-  </div>
-
-  {/* Empty column for alignment */}
-  <div className="hidden md:block"></div>
-</div>
-
-
-        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <Image
+            src="/images/brain.png"
+            alt="AI-driven medical imaging platform"
+            width={150}
+            height={150}
+            className="w-3/4 h-auto mb-8 md:mb-0 rounded-lg mx-auto"
+          />
+          <div className="text-center flex flex-col items-center md:items-start">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-800">
+            LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in&nbsp;oncology.
+          </p>
+            <div className="flex justify-center md:justify-center w-full">
+              <button className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <a href="/connect">Request Demo</a>
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="partners">
@@ -252,25 +240,35 @@ export default Page;
 //             />
 //           </h2>
 //         </div>
-//         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-//           <Image
-//             src="/images/brain.png"
-//             alt="AI-driven medical imaging platform"
-//             width={150}
-//             height={150}
-//             className="w-3/4 h-auto mb-8 md:mb-0 rounded-lg mx-auto"
-//           />
-//           <div className="text-center flex flex-col items-center md:items-start">
-//           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-800">
-//             LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in&nbsp;oncology.
-//           </p>
-//             <div className="flex justify-center md:justify-center w-full">
-//               <button className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
-//                 <a href="/connect">Request Demo</a>
-//               </button>
-//             </div>
-//           </div>
-//         </div>
+
+
+//         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
+//   {/* Image spanning the first two columns */}
+//   <div className="col-span-2 flex justify-end md:pr-4">
+//     <Image
+//       src="/images/brain.png"
+//       alt="AI-driven medical imaging platform"
+//       width={150}
+//       height={150}
+//       className="w-[400px] h-auto rounded-lg"
+//     />
+//   </div>
+
+//   {/* Text content spanning the next two columns */}
+//   <div className="col-span-3 flex flex-col items-center text-center md:text-left">
+//     <p className="text-center sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-800">
+//       LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in&nbsp;oncology.
+//     </p>
+//     <div className="flex justify-center w-full">
+//       <a href="/connect" className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
+//         Request Demo
+//       </a>
+//     </div>
+//   </div>
+// </div>
+
+
+        
 //       </section>
 
 //       <section id="partners">
