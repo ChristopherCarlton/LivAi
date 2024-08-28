@@ -38,7 +38,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Jim Karkanias PhD</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Jim brings over three decades of unparalleled expertise spanning science, technology, and business. With a distinguished career at leading healthcare technology firms, he&apos;s not only shaped strategies but also catalyzed innovation as an entrepreneur. Jim&apos;s illustrious career includes pivotal roles such as CTO at CZ Biohub, leading clinical operations for Merck&apos;s human health division and spearheading Microsoft&apos;s Cloud + Enterprise Division, where he co-founded the renowned MSFT health division.
+                Jim, Chief Technology Officer, brings over three decades of unparalleled expertise spanning science, technology, and business. With a distinguished career at leading healthcare technology firms, he&apos;s not only shaped strategies but also catalyzed innovation as an entrepreneur. Jim&apos;s illustrious career includes pivotal roles such as CTO at CZ Biohub, leading clinical operations for Merck&apos;s human health division and spearheading Microsoft&apos;s Cloud + Enterprise Division, where he co-founded the renowned MSFT health division.
                 {/* Jim brings over three decades of expertise in science, technology, and business. With a distinguished career at top healthcare technology firms, he has shaped strategies and driven innovation as an entrepreneur. Jim’s career includes pivotal roles such as CTO at CZ Biohub, leading Merck's human health division, and co-founding Microsoft's renowned MSFT health division. */}
               </p>
             </div>
@@ -59,7 +59,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Sarva Channarajurs</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Sarva is a technologist with extensive experience leading programs at large companies and startups. Following the loss of her son to pediatric brain cancer, DIPG, Sarva had advised health tech companies building patient centered innovation. She has moderated panels at the White House Cancer Moonshot’s Childhood Cancer Forum. Sarva is President of Mithil Prasad Foundation.
+                Sarva, Head Of Project Operations, is a technologist with extensive experience leading programs at large companies and startups. Following the loss of her son to pediatric brain cancer, DIPG, Sarva had advised health tech companies building patient centered innovation. She has moderated panels at the White House Cancer Moonshot’s Childhood Cancer Forum. Sarva is President of Mithil Prasad Foundation.
               </p>
             </div>
           </div>

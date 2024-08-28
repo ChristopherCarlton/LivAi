@@ -100,8 +100,7 @@ function Page() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <Image
-            // src="/images/brain.png"
-            src="/images/x.png"
+            src="/images/brain.png"
             alt="AI-driven medical imaging platform"
             width={150}
             height={150}

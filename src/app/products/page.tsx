@@ -35,8 +35,8 @@ const Products = () => {
                 className="object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <div className="w-full h-auto max-w-5xl px-4 md:px-0 mt-8"> {/* Changed to max-w-3xl for wider content */}
-              <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center max-w-full md:max-w-5xl px-4">
+            <div className="w-full h-auto max-w-7xl px-4 md:px-0 mt-8"> {/* Changed to max-w-3xl for wider content */}
+              <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center max-w-full md:max-w-7xl px-4">
                 <span className="inline-flex items-center">
                   MRAI
                   <img
@@ -86,8 +86,8 @@ const Products = () => {
                 className="object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <div className="w-full h-auto max-w-5xl px-4 md:px-0 mt-8"> {/* Changed to max-w-3xl for wider content */}
-              <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center max-w-full md:max-w-5xl px-4">
+            <div className="w-full h-auto max-w-7xl px-4 md:px-0 mt-8"> {/* Changed to max-w-3xl for wider content */}
+              <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-primary mb-4 text-center max-w-full md:max-w-7xl px-4">
                 <span className="inline-flex items-center">
                   MRAI
                   <img
