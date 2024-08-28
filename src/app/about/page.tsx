@@ -29,7 +29,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Mike Galvin</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Mike, Co-founder &amp; Chairman, is an experienced leader with a history of building global cloud infrastructure and platforms. With expertise across Hyperscalers, Telcos, IT, and Media, Mike's driven innovation and large-scale deployments. He's led global commercial teams and is passionate about using innovation to solve real-world problems. Over the past decade, Mike's focused on healthcare and AI to positively impact people's lives. He's a Fellow of the Chartered Institute of Marketing.
+                Mike, Co-founder &amp; Chairman, is an experienced leader with a history of building global cloud infrastructure and platforms. With expertise across Hyperscalers, Telcos, IT, and Media, Mike&apos;s driven innovation and large-scale deployments. He&apos;s led global commercial teams and is passionate about using innovation to solve real-world problems. Over the past decade, Mike&apos;s focused on healthcare and AI to positively impact people&apos;s lives. He&apos;s a Fellow of the Chartered Institute of Marketing.
               </p>
             </div>
             <div className="text-center delay-200">
