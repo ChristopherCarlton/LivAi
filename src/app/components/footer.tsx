@@ -1,11 +1,10 @@
 import React from 'react';
-import Image from 'next/image';
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import LogoSolo from './logosolo';
 import TextAppearOnce from './textAppearOnce';
 
 const Footer = () => {
   return (
-      <footer className="relative bg-white text-black py-16">
+    <footer className="relative bg-white text-black py-16">
       <div className="relative container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between items-center">
         
         {/* Contact Information */}
@@ -21,16 +20,9 @@ const Footer = () => {
         </div>
 
         {/* Logo and Social Icons */}
-        <div className="text-center">
+        <div className="text-center flex flex-col items-center">
           <a href="/">
-            <Image
-              // src="/images/logo1.png"
-              src="/images/logo2.png"
-              alt="LivAI Logo"
-              width={292} // Set the width (adjust as needed)
-              height={292} // Set the height (adjust as needed)
-              className="scale-150 mb-4 mx-auto"
-            />
+            <LogoSolo />
           </a>
           {/* Text Animation */}
           <TextAppearOnce />

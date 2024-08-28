@@ -100,16 +100,17 @@ function Page() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <Image
-            src="/images/brain.png"
+            // src="/images/brain.png"
+            src="/images/x.png"
             alt="AI-driven medical imaging platform"
             width={150}
             height={150}
             className="w-3/4 h-auto mb-8 md:mb-0 rounded-lg mx-auto"
           />
           <div className="text-center flex flex-col items-center md:items-start">
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-800">
-              LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in oncology.
-            </p>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-800">
+            LivAi provides a suite of cloud-based artificial intelligence (AI)-driven software solutions focused on providing improved analysis and deep insights towards diagnosis, prognosis, prediction to drug response, and treatment monitoring in&nbsp;oncology.
+          </p>
             <div className="flex justify-center md:justify-center w-full">
               <button className="bg-primary text-secondary py-2 px-6 rounded shadow-lg transform hover:scale-105 transition-transform duration-300">
                 <a href="/connect">Request Demo</a>

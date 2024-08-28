@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
+import LogoSoloHeader from "./logosoloheader";
 // background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", // Updated gradient with new color
 function Header() {
   const navItems = ["Home", "About", "Media", "Products", "Investors & Partners"];
@@ -98,11 +99,13 @@ function Header() {
       <div className="px-4 sm:px-6 flex items-center justify-between h-full">
         <div className="flex items-center h-full">
           <a href="/" className="h-full" onClick={() => handleTabClick("Home")}>
-            <img
+            {/* <img
               src="/images/logo.png"
               alt="Logo"
               className="h-full object-contain"
-            />
+            /> */}
+            <LogoSoloHeader/>
+
           </a>
         </div>
         <nav className="hidden md:flex items-center space-x-2 sm:space-x-4 lg:space-x-8 h-full">

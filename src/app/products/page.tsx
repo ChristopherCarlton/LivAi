@@ -55,7 +55,7 @@ const Products = () => {
             <img
               src="/images/trademark.png"
               alt="Trademark"
-              className="inline-block ml-1 w-4 h-4"
+              className="inline-block ml-1 w-4 h-4 mr-1"
             />
           </span>
           solution serves as a clinical decision-support for oncology
@@ -66,7 +66,7 @@ const Products = () => {
             <img
               src="/images/trademark.png"
               alt="Trademark"
-              className="inline-block ml-1 w-4 h-4"
+              className="inline-block ml-1 w-4 h-4 mr-1"
             />
           </span>
           analysis to perform detailed tumor assessment, through the entire
@@ -110,7 +110,7 @@ const Products = () => {
             <img
               src="/images/trademark.png"
               alt="Trademark"
-              className="inline-block ml-1 w-4 h-4"
+              className="inline-block ml-1 w-4 h-4 mr-1"
             />
           </span>
           -driven biomarkers. Our solutions are scientifically proven and
