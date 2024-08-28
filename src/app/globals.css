@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* @layer base {
-   h1, h2, h3 {
-    @apply font-craftgothicRegular font-semibold;
-  } 
-   p {
-    @apply font-craftgothicRegular font-semibold;
-  } 
-} */
-
 @layer base {
   h1, h2, h3 {
    @apply font-acariSans font-semibold;
@@ -20,17 +10,6 @@
    @apply font-acariSans font-semibold;
  } 
 }
-
-/* @layer base {
-  h1, h2, h3 {
-   @apply font-compita font-semibold;
- } 
-  p {
-   @apply font-compita font-semibold;
- } 
-} */
-
-
 
 :root {
   --foreground-rgb: 0, 0, 0;

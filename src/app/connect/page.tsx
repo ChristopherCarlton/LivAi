@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 function Connect() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
