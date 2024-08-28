@@ -29,10 +29,8 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Mike Galvin</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Mike, Co-founder &amp; Chairman&apos;s, is a visionary leader with a proven track record in building global network and cloud infrastructure platforms. With expertise across Hyperscalers, Telcos, IT, and Media, Mike has driven innovation and large-scale deployments. He has led global commercial teams and is passionate about using innovation to solve real-world problems. Over the past decade, Mike has focused on healthcare and AI, making a significant impact on people&apos;s lives. He is also a Fellow of the Chartered Institute of Marketing.
+                Mike, Co-founder &amp; Chairman, is an experienced leader with a history of building global cloud infrastructure and platforms. With expertise across Hyperscalers, Telcos, IT, and Media, Mike's driven innovation and large-scale deployments. He’s led global commercial teams and is passionate about using innovation to solve real-world problems. Over the past decade, Mike’s focused on healthcare and AI to make a positive impact on people's lives. He’s also a Fellow of the Chartered Institute of Marketing.
               </p>
-
-
             </div>
             <div className="text-center delay-200">
               <a href="https://www.linkedin.com/in/jimkarkanias/" target="_blank" rel="noopener noreferrer">
