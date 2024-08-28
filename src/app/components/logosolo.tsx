@@ -5,7 +5,7 @@ const LogoSolo = () => {
   return (
     <div className="flex items-center mb-4 mx-auto">
       <Image
-        src="/images/logoalone.png"
+        src="/images/logosolo.png"
         alt="LivAi Logo"
         width={180}
         height={180}
