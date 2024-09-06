@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import LogoSoloHeader from "./logosoloheader";
+import Image from "next/image";
 // background: "linear-gradient(90deg, #7E57C2 0%, rgba(83,115,188,1) 50%, #7E57C2 100%)", // Updated gradient with new color
 function Header() {
   const navItems = ["Home", "About", "Media", "Products", "Investors & Partners"];
@@ -108,6 +109,13 @@ function Header() {
 
           </a>
         </div>
+        <Image
+                src="/images/digitalHealth.png"
+                alt="Digital Health"
+                width={600}
+                height={100}
+                className="w-auto h-auto max-h-[50px] sm:max-h-[75px] md:max-h-[100px] "
+              />
         <nav className="hidden md:flex items-center space-x-2 sm:space-x-4 lg:space-x-8 h-full">
           {navItems.map((item, index) => (
             <a
