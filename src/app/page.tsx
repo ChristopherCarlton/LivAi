@@ -95,7 +95,7 @@ function Page() {
             height={200}  // Base height for larger screens
             className="
               w-auto py-2 h-auto 
-              max-h-[125px] sm:max-h-[150px] md:max-h-[175px] lg:max-h-[200px] 
+              max-h-[125px] sm:max-h-[150px] md:max-h-[175px] lg:max-h-[220px] xl:max-h-[380px]
               absolute 
               left-[30px] md:left-[25px] lg:left-[100px] 
               transform -translate-y-1/2 top-1/2 z-10
