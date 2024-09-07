@@ -109,13 +109,6 @@ function Header() {
 
           </a>
         </div>
-        <Image
-                src="/images/digitalHealth.png"
-                alt="Digital Health"
-                width={600}
-                height={100}
-                className="w-auto py-2 h-auto max-h-[50px] sm:max-h-[75px] md:max-h-[100px] "
-              />
         <nav className="hidden md:flex items-center space-x-2 sm:space-x-4 lg:space-x-8 h-full">
           {navItems.map((item, index) => (
             <a

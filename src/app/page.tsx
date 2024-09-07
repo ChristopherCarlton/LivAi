@@ -1,4 +1,3 @@
-
 "use client";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
@@ -85,6 +84,26 @@ function Page() {
             </h1>
         </div>
       </section>
+
+      {/* Logo positioned between sections with z-index, responsive positioning, and clickable */}
+      <div className="relative">
+        <a href="https://www.digitalhealthhub.org/awards/2024/2024-quarter-finalists#provider-diagnostic" target="_blank" rel="noopener noreferrer">
+          <Image
+            src="/images/digitalHealth.png"
+            alt="Digital Health"
+            width={1000}  // Base width for larger screens
+            height={200}  // Base height for larger screens
+            className="
+              w-auto py-2 h-auto 
+              max-h-[125px] sm:max-h-[150px] md:max-h-[175px] lg:max-h-[200px] 
+              absolute 
+              left-[30px] md:left-[25px] lg:left-[100px] 
+              transform -translate-y-1/2 top-1/2 z-10
+            "
+          />
+        </a>
+      </div>
+
       <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
         <div className="text-center mb-8">
           <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-primary">
