@@ -97,7 +97,7 @@ function Page() {
               w-auto py-2 h-auto 
               max-h-[125px] sm:max-h-[150px] md:max-h-[175px] lg:max-h-[220px] xl:max-h-[300px]
               absolute 
-              left-[30px] md:left-[25px] lg:left-[100px] 
+              left-[30px] md:left-[25px] lg:left-[75px]
               transform -translate-y-1/2 top-1/2 z-10
             "
           />
