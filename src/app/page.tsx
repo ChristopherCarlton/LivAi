@@ -86,17 +86,17 @@ function Page() {
       </section>
 
       {/* For both mobile and larger screens, the logo is positioned in the top right corner of the video */}
-      <div className="absolute top-20 right-5 z-10">
-        <a href="https://www.digitalhealthhub.org/awards/2024/2024-quarter-finalists#provider-diagnostic" target="_blank" rel="noopener noreferrer">
-          <Image
-            src="/images/digitalHealth.png"
-            alt="Digital Health"
-            width={100}  // Smaller width for both mobile and larger screens
-            height={30}  // Smaller height for both mobile and larger screens
-            className="w-auto h-auto object-contain"
-          />
-        </a>
-      </div>
+      <div className="absolute top-10 right-4 sm:top-20 sm:right-5 z-10">
+  <a href="https://www.digitalhealthhub.org/awards/2024/2024-quarter-finalists#provider-diagnostic" target="_blank" rel="noopener noreferrer">
+    <Image
+      src="/images/digitalHealth.png"
+      alt="Digital Health"
+      width={150}  // Base width for larger screens
+      height={45}  // Base height for larger screens
+      className="w-[100px] sm:w-[125px] md:w-[150px] lg:w-[175px] h-auto object-contain"
+    />
+  </a>
+</div>
 
       <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
         <div className="text-center mb-8">
