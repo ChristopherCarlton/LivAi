@@ -21,14 +21,25 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Logo and Social Icons */}
         <div className="text-center items-center">
           <a href="/">
-            <LogoSolo/>
+            <div className="max-w-[250px] mx-auto">
+              <Image 
+                src="/images/LivAiFooter.png" 
+                alt="LivAi Footer Logo" 
+                layout="intrinsic"
+                width={325}
+                height={100}
+                className="object-contain w-full"
+              />
+            </div>
           </a>
           {/* Text Animation */}
           <TextAppearOnce />
         </div>
+
+
+
 
         {/* Newsletter Subscription */}
         <div className="text-center">

@@ -100,12 +100,12 @@ function Header() {
       <div className="px-4 sm:px-6 flex items-center justify-between h-full">
         <div className="flex items-center h-full">
           <a href="/" className="h-full" onClick={() => handleTabClick("Home")}>
-            {/* <img
+            <img
               src="/images/logo.png"
               alt="Logo"
               className="h-full object-contain"
-            /> */}
-            <LogoSoloHeader/>
+            />
+            {/* <LogoSoloHeader/> */}
 
           </a>
         </div>

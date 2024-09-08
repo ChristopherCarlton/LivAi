@@ -85,24 +85,38 @@ function Page() {
         </div>
       </section>
 
-      {/* Logo positioned between sections with z-index, responsive positioning, and clickable */}
-      <div className="relative">
-        <a href="https://www.digitalhealthhub.org/awards/2024/2024-quarter-finalists#provider-diagnostic" target="_blank" rel="noopener noreferrer">
-          <Image
-            src="/images/digitalHealth.png"
-            alt="Digital Health"
-            width={1000}  // Base width for larger screens
-            height={200}  // Base height for larger screens
-            className="
-              w-auto py-2 h-auto 
-              max-h-[125px] sm:max-h-[150px] md:max-h-[175px] lg:max-h-[220px] xl:max-h-[300px]
-              absolute 
-              left-[30px] md:left-[25px] lg:left-[75px]
-              transform -translate-y-1/2 top-1/2 z-10
-            "
-          />
-        </a>
-      </div>
+      {/* For larger screens, the logo is positioned between sections with z-index */}
+<div className="relative hidden sm:block">
+  <a href="https://www.digitalhealthhub.org/awards/2024/2024-quarter-finalists#provider-diagnostic" target="_blank" rel="noopener noreferrer">
+    <Image
+      src="/images/digitalHealth.png"
+      alt="Digital Health"
+      width={1000}  // Base width for larger screens
+      height={200}  // Base height for larger screens
+      className="
+        w-auto py-2 h-auto 
+        max-h-[125px] sm:max-h-[150px] md:max-h-[175px] lg:max-h-[220px] xl:max-h-[300px]
+        absolute 
+        left-[30px] md:left-[25px] lg:left-[75px]
+        transform -translate-y-1/2 top-1/2 z-10
+      "
+    />
+  </a>
+</div>
+
+{/* For mobile screens, the logo is its own section and smaller */}
+<div className="block sm:hidden relative py-2">
+  <a href="https://www.digitalhealthhub.org/awards/2024/2024-quarter-finalists#provider-diagnostic" target="_blank" rel="noopener noreferrer">
+    <Image
+      src="/images/digitalHealth.png"
+      alt="Digital Health"
+      width={150}  // Smaller width for mobile screens
+      height={45}  // Smaller height for mobile screens
+      className="mx-auto w-auto h-auto object-contain"
+    />
+  </a>
+</div>
+
 
       <section className="pb-4 pt-4 px-4 md:px-16 bg-secondary fade-in translate-y-4 transition-opacity duration-1000">
         <div className="text-center mb-8">

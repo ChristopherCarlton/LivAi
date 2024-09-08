@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 const TextAppearOnce = () => {
   const [displayedText, setDisplayedText] = useState('');
   const [hasScrolledToBottom, setHasScrolledToBottom] = useState(false);
-  const texts = 'Precision Beyond Sight.';
+  const texts = 'Precision Beyond Sight';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,7 +46,7 @@ const TextAppearOnce = () => {
 
   return (
     <div className="text-center">
-      <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary font-bold">
+      <span className="text-base sm:text-lg md:text-xl lg:text-xl text-primary font-bold">
         {displayedText}
       </span>
     </div>
