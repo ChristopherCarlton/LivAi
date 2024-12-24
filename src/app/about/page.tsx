@@ -58,7 +58,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Sarthak Pati</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Sarthak Pati is a senior computer scientist and AI expert with over 20 years of experience. He holds a Master of Science in Biomedical Computing. His work focuses on AI and clinical workflow management, AI/ML/DL, and privacy-protected algorithms for healthcare. Sarthak has driven multiple research collaborations with major industry partners. He has extensive experience in academia and industry.
+                Sarthak Pati is a senior computer scientist and AI expert with over 11 years of experience. He holds a Master of Science in Biomedical Computing. His work focuses on AI and clinical workflow management, AI/ML/DL, and privacy-protected algorithms for healthcare. Sarthak has driven multiple research collaborations with major industry partners. He has extensive experience in academia and industry.
               </p>
             </div>
           </div>
