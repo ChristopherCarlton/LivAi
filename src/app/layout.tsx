@@ -20,9 +20,21 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="theme-color" content="#14347b" />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE183S7X1D"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-CE183S7X1D');
+            `,
+          }}
+        />
       </head>
       <body className={`${inter.className}`}>
-        <Header /> {/* Set the activeTab as needed */}
+        <Header />
         {children}
         <Footer/>
       </body>
