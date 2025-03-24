@@ -49,7 +49,7 @@ const About = () => {
               </a>
               <h3 className="text-2xl font-semibold text-primary mb-4">Sarva Channarajurs</h3>
               <p className="text-center text-sm sm:text-md md:text-lg lg:text-lg text-gray-800 max-w-[400px] mx-auto">
-                Sarva, Head of Program Operations, is a technologist with extensive experience leading programs at large companies and startups. Following the loss of her son to pediatric brain cancer, DIPG, Sarva had advised health tech companies building patient centered innovation. She has moderated panels at the White House Cancer Moonshot’s Childhood Cancer Forum. Sarva is President of Mithil Prasad Foundation.
+                Sarva, Head of Program Operations, is a technologist with extensive experience leading programs at large companies and startups. Following the loss of her son to pediatric brain cancer, DIPG, Sarva had advised health tech companies building patient centered innovation. She has moderated panels at the White House Cancer Moonshot's Childhood Cancer Forum. Sarva is President of Mithil Prasad Foundation.
               </p>
             </div>
             <div className="text-center delay-200">
@@ -68,10 +68,10 @@ const About = () => {
           <div className="bg-gray-800 h-0.5 mb-10"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
             <div className="text-center">
-              <a href="https://www.linkedin.com/in/schusterdavid/" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/DavidSchuster.jpeg" alt="David Schuster" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
+              <a href="https://www.linkedin.com/in/david-harvey-b84b32/" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/DavidHarvey.jpg" alt="David Harvey" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
-              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">David Schuster</p>
+              <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">David Harvey</p>
             </div>
             <div className="text-center">
               <a href="https://www.linkedin.com/in/ramy-ibrahim-91587515/" target="_blank" rel="noopener noreferrer">
