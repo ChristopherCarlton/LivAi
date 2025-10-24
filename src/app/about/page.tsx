@@ -106,7 +106,7 @@ const About = () => {
               <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Jai Kumar</p>
             </div>
             <div className="text-center">
-              <a href="https://www.linkedin.com/in/robertbrown/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/robert-j-brown-md-bb0a6324" target="_blank" rel="noopener noreferrer">
                 <Image src="/images/RobertBrown.png" alt="Robert Brown" width={200} height={200} className="w-[200px] h-[200px] object-cover mx-auto rounded mb-2 hover:scale-110 transition-transform duration-300 shadow-lg" />
               </a>
               <p className="pt-2 text-sm sm:text-md md:text-lg lg:text-lg text-primary">Robert Brown MD</p>
